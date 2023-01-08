@@ -1,5 +1,8 @@
 import styles from "../styles/navbar.module.css";
 import React, { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
+
 
 export default function Navbar() {
   const [showLinks, setShowLinks] = useState(false);
@@ -8,8 +11,8 @@ export default function Navbar() {
       <div className={styles.navbar}>
         <div className={styles.leftSide}>
           <div className={styles.links} id={showLinks ? "hidden" : ""}>
-            <a href={"/about"}>
-              <img
+            <Link href={"/about"}>
+              <Image
                 style={{ borderRadius: "50px" }}
                 size="xl"
                 circle
@@ -18,15 +21,15 @@ export default function Navbar() {
                 width={30}
                 height={30}
               />
-            </a>
+            </Link>
 
-            <a href={"/#project"}>Projects</a>
-            <a href={"/contact"}>Contacts</a>
-            <a href={"/"}>Portfolio</a>
+            <Link href={"/#project"}>Projects</Link>
+            <Link href={"/contact"}>Contacts</Link>
+            <Link href={"/"}>Portfolio</Link>
           </div>
         </div>
         <div className={styles.mid} id={showLinks ? "hidden" : ""}>
-          <a href={"/"}>PortFolio</a>
+          <Link href={"/"}>PortFolio</Link>
         </div>
 
         <div className={styles.rightSide}>
@@ -37,10 +40,10 @@ export default function Navbar() {
                 <i class="fa fa-caret-down"></i>
               </button>
               <div className={styles.dropdown_content}>
-                <a href="/about">About</a>
-                <a href="/#project">Projects </a>
+                <Link href="/about">About</Link>
+                <Link href="/#project">Projects </Link>
                 <div className={styles.act}>
-                  <a href="/contact">Contact </a>
+                  <Link href="/contact">Contact </Link>
                 </div>
               </div>
             </div>

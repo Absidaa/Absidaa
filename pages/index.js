@@ -3,6 +3,7 @@ import React from "react";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import Link from "next/link";
+import Image from "next/image";
 export default function Home() {
   const handleClick = (e, path) => {
     if (path === "/helpProject") {
@@ -30,23 +31,23 @@ export default function Home() {
           <div className={styles.socials}>
             <div class="hstack gap-2">
               <div>
-                <a href="https://github.com/Absidaa/Absida" target="blank">
+                <Link href="https://github.com/Absidaa/Absida" target="blank">
                   <BsGithub />
-                </a>
+                </Link>
               </div>
 
               <div>
-                <a
+                <Link
                   href="https://www.linkedin.com/in/absida-04b9b3232/"
                   target="blank"
                 >
                   <BsLinkedin />
-                </a>
+                </Link>
               </div>
               <div>
-                <a href="http://absida8@gmail.com" target="blank">
+                <Link href="http://absida8@gmail.com" target="blank">
                   <MdEmail />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -54,7 +55,7 @@ export default function Home() {
       </div>
 
       <div className={styles.abimg}>
-        <img
+        <Image
           src="/absid.jpg"
           class="rounded mx-auto d-block"
           alt="the author print"
@@ -98,7 +99,7 @@ export default function Home() {
         </div>
 
         <div className={styles.bio}>
-          <a href={"/about"}>Continue with my bio</a>
+          <Link href={"/about"}>Continue with my bio</Link>
         </div>
       </div>
       <div>
@@ -125,10 +126,10 @@ export default function Home() {
         </div>
 
         <div className={styles.card}>
-          <a href="/">
+          <Link href="/">
             <div class={"card"}>
               <div class="shadow-lg p-1  bg-body rounded">
-                <a href={"/helpProject"}>
+                <Link href={"/helpProject"}>
                   <div className={styles.cardFonts}>
                     The best place to find vulunter helpers to help <br /> you
                     gain your permit of stay.
@@ -136,21 +137,21 @@ export default function Home() {
                     <button className={styles.cardBtnL}>list of helpers</button>
                     <button className={styles.cardBtnR}>help request</button>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
       <div className={styles.cha}>
         <div className={styles.chat}>I'm open to chat !</div>
-        <a href="https:/www.absida8@gmail.com" target="blank">
+        <Link href="https:/www.absida8@gmail.com" target="blank">
           absida8@gmail.com
-        </a>
+        </Link>
         <div>
-          <a href="http://absida8@gmail.com">
+          <Link href="http://absida8@gmail.com">
             <div className={styles.comp}>👨🏾‍💻</div>
-          </a>
+          </Link>
         </div>
       </div>
       <div>
@@ -158,7 +159,7 @@ export default function Home() {
           <div className={styles.footerLeft}>
             <div className={styles.footer_content}>
               <div className={styles.name}>
-                <a href={"/#top"}>Abdallah Sahid Dumbuya</a>
+                <Link href={"/#top"}>Abdallah Sahid Dumbuya</Link>
               </div>
               &copy; {new Date().getFullYear()} built and designed by,
               <br /> Abdallah Sahid Dumbuya
@@ -167,11 +168,11 @@ export default function Home() {
           <div className={styles.footerMiddle}>
             <div className={styles.link}>
               <h6 className={styles.ink}>Links</h6>
-              <a href="/about">About</a>
+              <Link href="/about">About</Link>
 
-              <a href="/contact">Contact</a>
+              <Link href="/contact">Contact</Link>
               <div>
-                <a href="#project">Projects</a>
+                <Link href="#project">Projects</Link>
               </div>
             </div>
           </div>
@@ -180,23 +181,23 @@ export default function Home() {
               <div className={styles.intouch}>Get in Touch</div>
               <div class="hstack gap-2">
                 <div>
-                  <a href="https://github.com/Absidaa/Absida" target="blank">
+                  <Link href="https://github.com/Absidaa/Absida" target="blank">
                     <BsGithub />
-                  </a>
+                  </Link>
                 </div>
 
                 <div>
-                  <a
+                  <Link
                     href="https://www.linkedin.com/in/absida-04b9b3232/"
                     target="blank"
                   >
                     <BsLinkedin />
-                  </a>
+                  </Link>
                 </div>
                 <div>
-                  <a href="http://absida8@gmail.com" target="blank">
+                  <Link href="http://absida8@gmail.com" target="blank">
                     <MdEmail />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

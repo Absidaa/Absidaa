@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
 import { Text, Group } from "@mantine/core";
+import Link from "next/link";
 
 export default function cv() {
   return (
@@ -15,15 +16,17 @@ export default function cv() {
           <div className={styles.cvbd}>
             <Group position="apart">
               <Text mb="lg">
-                <a href="http://www.absida8@gmail.com">absida8@gmail.com</a>
+                <Link href="http://www.absida8@gmail.com">
+                  absida8@gmail.com
+                </Link>
               </Text>
               <Text mb="lg">
-                <a href="https://github.com/Absidaa/Absida">github</a>
+                <Link href="https://github.com/Absidaa/Absida">github</Link>
               </Text>
               <Text mb="lg">
-                <a href="https://www.linkedin.com/in/absida-04b9b3232/">
+                <Link href="https://www.linkedin.com/in/absida-04b9b3232/">
                   linkedin
-                </a>
+                </Link>
               </Text>
             </Group>
           </div>

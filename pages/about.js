@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../styles/Home.module.css";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -17,7 +18,7 @@ export default function About() {
         <div>
           <p className={styles.cv}>
             <span className={styles.myCv}>You wanna check out my</span>
-            <a href={"/cv"}>CV</a>
+            <Link href={"/cv"}>CV</Link>
             <span className={styles.myCv}>?</span>
           </p>
         </div>
@@ -122,7 +123,7 @@ export default function About() {
           <div className={styles.footerLeft}>
             <div className={styles.footer_content}>
               <p className={styles.name}>
-                <a href="/">Abdallah Sahid Dumbuya</a>
+                <Link href="/">Abdallah Sahid Dumbuya</Link>
               </p>
               &copy; {new Date().getFullYear()} built and designed by,
               <br /> Abdallah Sahid Dumbuya
@@ -131,11 +132,11 @@ export default function About() {
           <div className={styles.footerMiddle}>
             <div className={styles.link}>
               <h6>Links</h6>
-              <a href="/about">About</a>
+              <Link href="/about">About</Link>
 
-              <a href="/contact">Contact</a>
+              <Link href="/contact">Contact</Link>
 
-              <a href="/#project">Projects</a>
+              <Link href="/#project">Projects</Link>
             </div>
           </div>
           <div className={styles.footerRight}>
@@ -143,23 +144,23 @@ export default function About() {
               <div className={styles.intouch}>Get in Touch</div>
               <div class="hstack gap-2">
                 <div>
-                  <a href="https://github.com/Absidaa/Absida" target="blank">
+                  <Link href="https://github.com/Absidaa/Absida" target="blank">
                     <BsGithub />
-                  </a>
+                  </Link>
                 </div>
 
                 <div>
-                  <a
+                  <Link
                     href="https://www.linkedin.com/in/absida-04b9b3232/"
                     target="blank"
                   >
                     <BsLinkedin />
-                  </a>
+                  </Link>
                 </div>
                 <div>
-                  <a href="http://absida8@gmail.com" target="blank">
+                  <Link href="http://absida8@gmail.com" target="blank">
                     <MdEmail />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
