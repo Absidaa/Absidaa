@@ -1,5 +1,5 @@
 {
-  "homepage": "http//Absidaa.github.io/portfolio",
+  "homepage": "http://http//Absidaa.github.io/portfolio",
   "name": "middle",
   "version": "0.1.0",
   "private": true,
@@ -41,5 +41,17 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Absidaa/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Absidaa/portfolio/issues"
   }
 }
