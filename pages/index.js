@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Home() {
   const handleClick = (e, path) => {
     if (path === "/helpProject") {
-      console.log("I clicked on it");
+      console.log(`I clicked on it`);
     }
   };
   return (
@@ -39,7 +39,7 @@ export default function Home() {
               <div>
                 <Link
                   href="https://www.linkedin.com/in/absida-04b9b3232/"
-                  target="blank"
+                  rel="noreferrer"
                 >
                   <BsLinkedin />
                 </Link>

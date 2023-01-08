@@ -41,9 +41,9 @@ export default function helpProject() {
           </div>
           <div className={styles.sit}>
             <h3 className={styles.liv}>live</h3>
-            <a href={"https://i-ihelp.herokuapp.com"} target="_blank">
+            <Link href={"https://i-ihelp.herokuapp.com"} rel="noreferrer">
               site
-            </a>
+            </Link>
           </div>
         </div>
         <div className={styles.himg}>
