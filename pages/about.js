@@ -45,8 +45,8 @@ export default function About() {
             <br /> the problem is, then get a good explanation from the owner
             could solve the issue pretty quick, but on the other hand, not
             everyone can explain what
-            <br /> they've done or what's wrong. Figuring out the problem might
-            not be easy, but I always got the device back as it was.
+            <br /> they've done or what&quot;s wrong. Figuring out the problem
+            might not be easy, but I always got the device back as it was.
           </p>
           <div>
             <p>
@@ -63,12 +63,12 @@ export default function About() {
           <div>
             <p>
               <span className={styles.close}>
-                I give close attention to my codes' understandability.
+                I give close attention to my codes&quot; understandability.
               </span>
-              Certainly, I’ll put together something as quickly as possible to
-              make it work, but after that I’ll spend a good amount of time
-              commenting and organizing everything. I want you to feel welcome
-              around my code.
+              Certainly, I&quot;ll put together something as quickly as possible
+              to make it work, but after that I&quot;ll spend a good amount of
+              time commenting and organizing everything. I want you to feel
+              welcome around my code.
             </p>
             <p>
               <span className={styles.clean}>

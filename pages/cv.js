@@ -40,15 +40,16 @@ export default function cv() {
           </Group>
           <Group position="apart" mb="lg">
             <Text>
-              I'm a Sierra Leonean. Basically, I've gained experiences from
-              different sectors of life. I've been trading in the stock market
-              for over a year now. My favourite stocks are Google, Tesla and
-              Apple; sometimes I do day trading in the forex market. Lately, I
-              have entered the crypto world. I'm also a ghostwriter, I write for
-              some folks about an idea they've developed but couldn't write it
-              down by themselves. In the academic year 2019-2020, I worked as an
-              English teacher in Reims, France. My mission there was to motivate
-              them to conquer their fear.
+              I&quot;m a Sierra Leonean. Basically, I&quot;ve gained experiences
+              from different sectors of life. I&quot;ve been trading in the
+              stock market for over a year now. My favourite stocks are Google,
+              Tesla and Apple; sometimes I do day trading in the forex market.
+              Lately, I have entered the crypto world. I&quot;m also a
+              ghostwriter, I write for some folks about an idea they&quot;ve
+              developed but couldn't write it down by themselves. In the
+              academic year 2019-2020, I worked as an English teacher in Reims,
+              France. My mission there was to motivate them to conquer their
+              fear.
             </Text>
           </Group>
           <Group position="apart">
@@ -147,8 +148,8 @@ export default function cv() {
             <Text mb="xl">
               <Text>Acireale, Italy.</Text>{" "}
               <Text>
-                • I kept servers' areas clean and stocked to scale up efficiency
-                while working tables.
+                • I kept servers&quot; areas clean and stocked to scale up
+                efficiency while working tables.
               </Text>
               <Text>
                 • Maintained customer satisfaction by clarifying questions about
@@ -169,8 +170,8 @@ export default function cv() {
           </Group>
           <Group>
             <Text>
-              I've worked as a phone mechanic and installing software in PC in
-              Sierra Leone
+              I&quot;ve worked as a phone mechanic and installing software in PC
+              in Sierra Leone
             </Text>
           </Group>
         </div>

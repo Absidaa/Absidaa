@@ -95,7 +95,7 @@ export default function Home() {
           The first technology device that I sat my eyes on was like a magic,
           <br />
           instantly I knew there was something in that well wrapped gaget <br />
-          but I counldn't figure out exactly what was it.
+          but I counldn&quot;t figure out exactly what was it.
         </div>
 
         <div className={styles.bio}>
@@ -144,7 +144,7 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.cha}>
-        <div className={styles.chat}>I'm open to chat !</div>
+        <div className={styles.chat}>I&quot;m open to chat !</div>
         <Link href="https:/www.absida8@gmail.com" target="blank">
           absida8@gmail.com
         </Link>
