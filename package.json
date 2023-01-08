@@ -1,4 +1,5 @@
 {
+  "homepage": "http//Absidaa.github.io/portfolio",
   "name": "middle",
   "version": "0.1.0",
   "private": true,
@@ -6,6 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "next lint"
   },
   "dependencies": {
@@ -35,5 +38,8 @@
     "react-icons": "^4.7.1",
     "rsuite": "^5.24.0",
     "save": "^2.9.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
