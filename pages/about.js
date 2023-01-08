@@ -34,7 +34,7 @@ export default function About() {
             3D computer games like Molta Kombat and FIFA psp got me knee to sub
             zero. <br />
             Back home in Sierra Leone, I fixed broken deviecs in my community,
-            sometimes, I changed mobile phones' screen that are shattered
+            sometimes, I changed mobile phones&quot; screen that are shattered
             completly and <br />
             give them good looking one that they dserved. Usually, I replaced
             charging bases and the boards. I sovled soft problems in computers
@@ -45,8 +45,9 @@ export default function About() {
             <br /> the problem is, then get a good explanation from the owner
             could solve the issue pretty quick, but on the other hand, not
             everyone can explain what
-            <br /> they've done or what&quot;s wrong. Figuring out the problem
-            might not be easy, but I always got the device back as it was.
+            <br /> they&quot;ve done or what&quot;s wrong. Figuring out the
+            problem might not be easy, but I always got the device back as it
+            was.
           </p>
           <div>
             <p>
@@ -54,8 +55,8 @@ export default function About() {
                 Since then, I haven&quot;t stopped learning about the tech
                 world.
               </span>
-              I've been involving in online trading, helping taders open their
-              trading accounts then <br />
+              I&quot;ve been involving in online trading, helping taders open
+              their trading accounts then <br />
               show them how they could get around the platform.
             </p>
           </div>

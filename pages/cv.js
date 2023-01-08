@@ -46,7 +46,7 @@ export default function cv() {
               Tesla and Apple; sometimes I do day trading in the forex market.
               Lately, I have entered the crypto world. I&quot;m also a
               ghostwriter, I write for some folks about an idea they&quot;ve
-              developed but couldn't write it down by themselves. In the
+              developed but couldn&quot;t write it down by themselves. In the
               academic year 2019-2020, I worked as an English teacher in Reims,
               France. My mission there was to motivate them to conquer their
               fear.
