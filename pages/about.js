@@ -51,7 +51,8 @@ export default function About() {
           <div>
             <p>
               <span className={styles.techWise}>
-                Since then, I haven't stopped learning about the tech world.
+                Since then, I haven&quot;t stopped learning about the tech
+                world.
               </span>
               I've been involving in online trading, helping taders open their
               trading accounts then <br />
