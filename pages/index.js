@@ -128,12 +128,14 @@ export default function Home() {
         <div className={styles.card}>
           <Link href="/">
             <div class={"card"}>
-              <div class="shadow-lg p-1  bg-body rounded">
+              <div class="shadow-lg p-0  bg-body rounded">
                 <Link href={"/helpProject"}>
                   <div className={styles.cardFonts}>
                     The best place to find vulunter helpers to help <br /> you
                     gain your permit of stay.
-                    <div className={styles.free}>free online helpers</div>
+                    <div className={styles.free}>
+                      <p>free online helpers</p>
+                    </div>
                     <button className={styles.cardBtnL}>list of helpers</button>
                     <button className={styles.cardBtnR}>help request</button>
                   </div>
@@ -143,8 +145,24 @@ export default function Home() {
           </Link>
         </div>
         <div>
-          <div>PERSONAL PROJECT</div>
-          <div>Home-Workouts</div>
+          <div className={styles.personalProject}>PERSONAL PROJECT</div>
+          <div className={styles.homeSession}>Home Session</div>
+          <p className={styles.homeSessionElighten}>
+            Workout and look fit is not a mordern thing but it's one of the top
+            five <br /> doctors' prescriptionsin mordern days to keep you
+            healthy. <br /> I love workingout first thing before doing anything
+            else, so I decided <br /> to build the app that could keep me going.
+          </p>
+          <button className={styles.homeSessionButton}>view project</button>
+          <div className={styles.homeSessionCard}>
+            <div class="shadow-lg p-1  bg-body rounded">
+              <div className="card">
+                <div className={styles.homeSessionCardFonts}>
+                  this home workout app would
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className={styles.cha}>
@@ -166,7 +184,7 @@ export default function Home() {
                 <Link href={"/#top"}>Abdallah Sahid Dumbuya</Link>
               </div>
               &copy; {new Date().getFullYear()} built and designed by,
-              <br /> Abdallah Sahid Dumbuya
+              <p>Abdallah Sahid Dumbuya</p>
             </div>
           </div>
           <div className={styles.footerMiddle}>

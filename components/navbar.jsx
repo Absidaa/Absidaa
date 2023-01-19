@@ -25,7 +25,7 @@ export default function Navbar() {
 
             <Link href={"/#project"}>Projects</Link>
             <Link href={"/contact"}>Contacts</Link>
-            <Link href={"/"}>Portfolio</Link>
+            <Link href={"/"} className={styles.port} >Portfolio</Link>
           </div>
         </div>
         <div className={styles.mid} id={showLinks ? "hidden" : ""}>
