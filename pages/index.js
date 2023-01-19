@@ -144,7 +144,7 @@ export default function Home() {
         </div>
         <div>
           <div>PERSONAL PROJECT</div>
-          <div>Home-Workout</div>
+          <div>Home-Workouts</div>
         </div>
       </div>
       <div className={styles.cha}>
