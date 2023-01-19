@@ -61,12 +61,12 @@
   text-transform: capitalize;
   font-weight: bolder;
   margin: 15px 50px;
-  margin-left: 80vh;
+  margin-left: 67vh;
   margin-top: 15vh;
   font-size: 20px;
 }
 .des {
-  margin-left: 80vh;
+  margin-left: 67vh;
   color: black;
   margin-right: 40px;
   margin-top: 25px;
@@ -360,7 +360,7 @@
   width: 93px;
   height: 33px;
   padding: 2px 10px 0px 6px;
-  margin-left: 48vh;
+  margin-left: 38vh;
   margin-top: -15px;
   background-color: rgb(36, 122, 89);
   color: white;
@@ -430,7 +430,7 @@
   border-radius: 7px;
   font-weight: 600;
   width: 102px;
-  margin-left: -73vh;
+  margin-left: -66.5vh;
   height: 33px;
   padding: 2px 10px 0px 6px;
   margin-top: 15px;
@@ -442,7 +442,7 @@
   border-radius: 7px;
   font-weight: 600;
   width: 77px;
-  margin-left: -55vh;
+  margin-left: -50.3vh;
   height: 33px;
   padding: 2px 10px 0px 8px;
   margin-top: -33px;
@@ -454,7 +454,7 @@
   border-radius: 7px;
   font-weight: 600;
   width: 90px;
-  margin-left: -41.5vh;
+  margin-left: -38.2vh;
   height: 33px;
   padding: 2px 10px 0px 8px;
   margin-top: -33px;
@@ -467,7 +467,7 @@
   font-weight: 600;
   width: 77px;
   height: 33px;
-  margin-left: -25.5vh;
+  margin-left: -24vh;
   padding: 2px 10px 0px 7px;
   margin-top: -33px;
   background-color: rgb(36, 122, 89);
@@ -895,7 +895,7 @@
     border-radius: 7px;
     font-weight: 600;
     width: 102px;
-    margin-left: -74.6vh;
+    margin-left: -68vh;
     height: 33px;
     padding: 2px 10px 0px 11px;
     margin-top: 15px;
@@ -907,7 +907,7 @@
     border-radius: 7px;
     font-weight: 600;
     width: 77px;
-    margin-left: -56.2vh;
+    margin-left: -51.3vh;
     height: 33px;
     padding: 2px 10px 0px 10px;
     margin-top: -33px;
@@ -919,7 +919,7 @@
     border-radius: 7px;
     font-weight: 600;
     width: 90px;
-    margin-left: -42.1vh;
+    margin-left: -39vh;
     height: 33px;
     padding: 2px 10px 0px 10px;
     margin-top: -33px;
@@ -932,7 +932,7 @@
     font-weight: 600;
     width: 77px;
     height: 33px;
-    margin-left: -25.5vh;
+    margin-left: -24.5vh;
     padding: 2px 10px 0px 11px;
     margin-top: -33px;
     background-color: rgb(36, 122, 89);
