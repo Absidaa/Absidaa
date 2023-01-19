@@ -56,11 +56,11 @@ export default function Home() {
 
       <div className={styles.abimg}>
         <Image
-          src="/absid.jpg"
+          src="/picInwhite.jpg"
           class="rounded mx-auto d-block"
           alt="the author print"
-          width={200}
-          height={200}
+          width={250}
+          height={300}
         />
       </div>
       <h2 className={styles.skills}>My Skills</h2>
@@ -142,9 +142,13 @@ export default function Home() {
             </div>
           </Link>
         </div>
+        <div>
+          <div>PERSONAL PROJECT</div>
+          <div>Home Workout</div>
+        </div>
       </div>
       <div className={styles.cha}>
-        <div className={styles.chat}>I&quot;m open to chat !</div>
+        <div className={styles.chat}>I am open to chat !</div>
         <Link href="https:/www.absida8@gmail.com" target="blank">
           absida8@gmail.com
         </Link>

@@ -82,7 +82,7 @@ export default function helpProject() {
           sensitive data is kept safe using environment variables.
         </p>
         <p>
-          We deployed the site to Netlify because we are very comfortable with
+          We deployed the site to Heroku because we are very comfortable with
           the tools they provide for continuous deployment <br />
           and integration.
         </p>
