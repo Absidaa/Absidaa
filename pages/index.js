@@ -136,8 +136,6 @@ export default function Home() {
                     <div className={styles.free}>
                       <p>free online helpers</p>
                     </div>
-                    <button className={styles.cardBtnL}>list of helpers</button>
-                    <button className={styles.cardBtnR}>help request</button>
                   </div>
                 </Link>
               </div>
