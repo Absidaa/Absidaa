@@ -275,7 +275,7 @@
 }
 .card :hover {
   transform: translate(0px, -2%);
-  box-shadow: rgb(88 88 88) -0.1px 40px 2px 11px;
+  box-shadow: rgb(88 88 88) -0.1px 30px 2px 11px;
   cursor: pointer;
   border-radius: 25px;
 }
@@ -638,7 +638,8 @@
 }
 .homeSessionCard :hover {
   transform: translate(0px, -2%);
-  box-shadow: rgb(88 88 88) -0.1px 40px 2px 11px;
+  box-shadow: rgb(88 88 88) -0.1px -1px 2px 11px;
+  transition-delay: 0s;
   cursor: pointer;
   border-radius: 25px;
 }
@@ -810,6 +811,31 @@
     border-color: blue;
     text-transform: capitalize;
   }
+  .personalProject {
+    margin-left: 10vh;
+    font-size: 20px;
+    margin-top: 70px;
+  }
+  .homeSession {
+    font-size: 8.5vh;
+    margin-left: 10vh;
+  }
+  .homeSessionElighten {
+    margin-left: 10vh;
+    margin-bottom: 10vh;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .homeSessionButton {
+    margin-left: 10vh;
+    font-size: 22px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
   .homeSessionCard {
     width: 35%;
     margin-top: 10vh;

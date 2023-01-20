@@ -128,7 +128,7 @@ export default function Home() {
         <div className={styles.card}>
           <Link href="/">
             <div class={"card"}>
-              <div class="shadow-lg p-0  bg-body rounded">
+              <div class="shadow-lg p-1  bg-body rounded">
                 <Link href={"/helpProject"}>
                   <div className={styles.cardFonts}>
                     The best place to find vulunter helpers to help <br /> you
@@ -154,7 +154,9 @@ export default function Home() {
             anything else, so I decided <br /> to build the app that could keep
             me going.
           </p>
-          <button className={styles.homeSessionButton}>view project</button>
+          <Link href={"/homeSession"}>
+            <button className={styles.homeSessionButton}>view project</button>
+          </Link>
           <div className={styles.homeSessionCard}>
             <div class="shadow-lg p-1  bg-body rounded">
               <div className="card">
