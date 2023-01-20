@@ -109,26 +109,24 @@ export default function Home() {
           </h1>
 
           <div className={styles.stack}>full stack developer/tech manager</div>
-          <h1>I-help</h1>
+          <h1 className={styles.ihelpDescription}>I-help</h1>
           <div className={styles.helpDes}>
             It took a dedicated team of 4 developers to create core features
             <br />
             and integrate it PostgreSQL. Implemented code linting, database
             <br /> migration and preview deploys.
           </div>
-          <Link href={"/helpProject"}>
-            <button className={styles.view1}>
-              <div onClick={(e) => handleClick(e, "/helpProjrct")}>
-                view project
-              </div>
-            </button>
-          </Link>
+          <button className={styles.view1}>
+            <div onClick={(e) => handleClick(e, "/helpProjrct")}>
+              <Link href={"/helpProject"}>view project</Link>
+            </div>
+          </button>
         </div>
 
         <div className={styles.card}>
-          <Link href="/">
-            <div class={"card"}>
-              <div class="shadow-lg p-1  bg-body rounded">
+          <div class={"card"}>
+            <div class="shadow-lg p-1  bg-body rounded">
+              <Link href="/">
                 <Link href={"/helpProject"}>
                   <div className={styles.cardFonts}>
                     The best place to find vulunter helpers to help <br /> you
@@ -138,9 +136,9 @@ export default function Home() {
                     </div>
                   </div>
                 </Link>
-              </div>
+              </Link>
             </div>
-          </Link>
+          </div>
         </div>
         <div>
           <div className={styles.personalProject}>PERSONAL PROJECT</div>

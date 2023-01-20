@@ -40,13 +40,13 @@ export default function cv() {
           </Group>
           <Group position="apart" mb="lg">
             <Text>
-              I&quot;m a Sierra Leonean. Basically, I&quot;ve gained experiences
-              from different sectors of life. I&quot;ve been trading in the
+              I&apos;m a Sierra Leonean. Basically, I&apos;ve gained experiences
+              from different sectors of life. I&apos;ve been trading in the
               stock market for over a year now. My favourite stocks are Google,
               Tesla and Apple; sometimes I do day trading in the forex market.
-              Lately, I have entered the crypto world. I&quot;m also a
-              ghostwriter, I write for some folks about an idea they&quot;ve
-              developed but couldn&quot;t write it down by themselves. In the
+              Lately, I have entered the crypto world. I&apos;m also a
+              ghostwriter, I write for some folks about an idea they&apos;ve
+              developed but couldn&apos;t write it down by themselves. In the
               academic year 2019-2020, I worked as an English teacher in Reims,
               France. My mission there was to motivate them to conquer their
               fear.
@@ -148,7 +148,7 @@ export default function cv() {
             <Text mb="xl">
               <Text>Acireale, Italy.</Text>{" "}
               <Text>
-                • I kept servers&quot; areas clean and stocked to scale up
+                • I kept servers&apos; areas clean and stocked to scale up
                 efficiency while working tables.
               </Text>
               <Text>
@@ -170,7 +170,7 @@ export default function cv() {
           </Group>
           <Group>
             <Text>
-              I&quot;ve worked as a phone mechanic and installing software in PC
+              I&apos;ve worked as a phone mechanic and installing software in PC
               in Sierra Leone
             </Text>
           </Group>

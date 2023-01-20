@@ -597,6 +597,7 @@
   animation: spin 3s infinite linear;
   margin-top: 15px;
 }
+
 .personalProject {
   margin-left: 18vh;
   font-size: 20px;
@@ -1041,6 +1042,17 @@
   }
 }
 @media only screen and (max-width: 400px) {
+  .contain {
+    position: absolute;
+    width: 68vh;
+    top: 199%;
+    left: 50%;
+    margin-top: -23vh;
+    margin-left: 7vh;
+    transform: translate(-50%, -50%);
+    padding-left: 30px;
+    padding: 30px;
+  }
   .me {
     height: 100vh;
     width: 47vh;
@@ -1288,6 +1300,19 @@
   }
 }
 @media only screen and (max-width: 414px) {
+  .contain {
+    border: none;
+    border-color: white;
+    position: absolute;
+    width: 70vh;
+    top: 19%;
+    left: 50%;
+    margin-left: 12vh;
+    margin-top: -70vh;
+    transform: translate(-50%, -50%);
+    padding-left: 30px;
+    padding: 30px;
+  }
   .me {
     height: 100vh;
     width: 70vh;
@@ -1679,8 +1704,25 @@
   .cha {
     margin-left: 6.4vh;
   }
+  .homeSession {
+    font-size: 33px;
+    font-weight: bolder;
+  }
 }
 @media only screen and (max-width: 375px) {
+  .contain {
+    border: none;
+    border-color: white;
+    position: absolute;
+    width: 68vh;
+    top: 199%;
+    left: 50%;
+    margin-top: -23vh;
+    margin-left: 7vh;
+    transform: translate(-50%, -50%);
+    padding-left: 30px;
+    padding: 30px;
+  }
   .skills {
     margin-top: -55vh;
     margin-bottom: 60vh;
@@ -1824,9 +1866,27 @@
     background-color: rgb(36, 122, 89);
     color: white;
   }
+
+  .homeSession {
+    font-size: 33px;
+    font-weight: bolder;
+  }
 }
 
 @media only screen and (max-width: 360px) {
+  .contain {
+    border: none;
+    border-color: white;
+    position: absolute;
+    width: 68vh;
+    top: 199%;
+    left: 50%;
+    margin-top: -50vh;
+    margin-left: 9vh;
+    transform: translate(-50%, -50%);
+    padding-left: 30px;
+    padding: 30px;
+  }
   .skills {
     margin-top: -52vh;
     margin-bottom: 60vh;
@@ -1969,5 +2029,9 @@
     margin-top: -33px;
     background-color: rgb(36, 122, 89);
     color: white;
+  }
+  .homeSession {
+    font-size: 33px;
+    font-weight: bolder;
   }
 }
