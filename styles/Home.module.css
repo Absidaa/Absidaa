@@ -1971,24 +1971,3 @@
     color: white;
   }
 }
-
-@media only screen and (max-width: 393px) {
-  .post {
-    margin-left: -50vh;
-  }
-  .nod {
-    margin-left: -37.3vh;
-  }
-  .boot {
-    margin-left: -27.4vh;
-  }
-  .tab {
-    margin-left: -16vh;
-  }
-  .lize {
-    margin-left: -5vh;
-  }
-  .chat {
-    font-size: 27.5px;
-  }
-}
