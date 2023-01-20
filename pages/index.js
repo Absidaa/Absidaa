@@ -144,11 +144,8 @@ export default function Home() {
           <div className={styles.personalProject}>PERSONAL PROJECT</div>
           <div className={styles.homeSession}>Home Session</div>
           <p className={styles.homeSessionElighten}>
-            Workout and look fit is not a mordern thing but it&apos;s one of the
-            top five <br /> doctors&apos; prescriptionsin mordern days to keep
-            you healthy. <br /> I love workingout first thing before doing
-            anything else, so I decided <br /> to build the app that could keep
-            me going.
+            Take your home workouts to the next level and let your achevement
+            motivate others.{" "}
           </p>
           <Link href={"/homeSession"}>
             <button className={styles.homeSessionButton}>view project</button>
