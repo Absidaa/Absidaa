@@ -574,8 +574,6 @@
 }
 
 .contain {
-  border: solid;
-  border-color: blue;
   position: absolute;
   max-width: 500%;
   top: 160%;
@@ -899,8 +897,6 @@
     margin-top: 10%;
   }
   .contain {
-    border: solid;
-    border-color: blue;
     position: absolute;
     width: 80%;
     top: 199%;
@@ -1055,7 +1051,7 @@
     width: 68vh;
     top: 199%;
     left: 50%;
-    margin-top: -23vh;
+    margin-top: -20vh;
     margin-left: 7vh;
     transform: translate(-50%, -50%);
     padding-left: 30px;
@@ -1309,14 +1305,12 @@
 }
 @media only screen and (max-width: 414px) {
   .contain {
-    border: none;
-    border-color: white;
     position: absolute;
     width: 70vh;
     top: 19%;
     left: 50%;
     margin-left: 12vh;
-    margin-top: -65vh;
+    margin-top: -50vh;
     transform: translate(-50%, -50%);
     padding-left: 30px;
     padding: 30px;
@@ -1563,8 +1557,6 @@
     color: white;
   }
   .contain {
-    border: solid;
-    border-color: blue;
     position: absolute;
     max-width: 500%;
     top: 189%;
@@ -1719,13 +1711,11 @@
 }
 @media only screen and (max-width: 375px) {
   .contain {
-    border: none;
-    border-color: white;
     position: absolute;
     width: 68vh;
     top: 199%;
     left: 50%;
-    margin-top: -18vh;
+    margin-top: -10vh;
     margin-left: 7vh;
     transform: translate(-50%, -50%);
     padding-left: 30px;
@@ -1883,13 +1873,11 @@
 
 @media only screen and (max-width: 360px) {
   .contain {
-    border: none;
-    border-color: white;
     position: absolute;
     width: 68vh;
     top: 199%;
     left: 50%;
-    margin-top: -50vh;
+    margin-top: -20vh;
     margin-left: 9vh;
     transform: translate(-50%, -50%);
     padding-left: 30px;
