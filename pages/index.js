@@ -203,7 +203,7 @@ export default function Home() {
               <div class="hstack gap-2">
                 <div>
                   <Link href="https://github.com/Absidaa/Absida" target="blank">
-                    <BsGithub />
+                    <BsGithub size={30} />
                   </Link>
                 </div>
 
@@ -212,12 +212,12 @@ export default function Home() {
                     href="https://www.linkedin.com/in/absida-04b9b3232/"
                     target="blank"
                   >
-                    <BsLinkedin />
+                    <BsLinkedin size={30} />
                   </Link>
                 </div>
                 <div>
                   <Link href="http://absida8@gmail.com" target="blank">
-                    <MdEmail />
+                    <MdEmail size={30} />
                   </Link>
                 </div>
               </div>
