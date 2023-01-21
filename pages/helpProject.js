@@ -90,12 +90,13 @@ export default function helpProject() {
         <div>
           <h3 className={styles.explain}> Skills Learned</h3>
           <p>
-            I've never felt comfortable around anything that involves backend, I
-            tried so hard to absorbed <br /> those beautiful strings whenever my
-            tutor was giving lectures but I still couldn't place my hands <br />
+            I&apos;ve never felt comfortable around anything that involves
+            backend, I tried so hard to absorbed <br /> those beautiful strings
+            whenever my tutor was giving lectures but I still couldn&apos;t
+            place my hands <br />
             on something in particular that I cannot tell. But this project
             right here open up the doors with <br /> a shining lights lighting
-            up upon my face with lots of hope.{" "}
+            up upon my face with lots of hope.
           </p>
           <p>
             In this project, I Learned how to plane a project in Figma then take

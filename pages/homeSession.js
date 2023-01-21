@@ -78,10 +78,11 @@ export default function homeSession() {
             Making a web page or an application responsive was something that
             made me tinkled my thoughts <br /> to attention. It was somehow a
             bit of a headache for me, but after persisting to get to the bottom
-            of it, <br /> then I know it's a peace of cake. <b /> Another skill
-            that i picked up during this process was to put a timer <br /> in my
-            app. This halted my coding process because I wanted to get it done
-            at all means. I hopped back <br /> to app after gasping the basics.
+            of it, <br /> then I know it&apos;s a peace of cake. <b /> Another
+            skill that i picked up during this process was to put a timer <br />{" "}
+            in my app. This halted my coding process because I wanted to get it
+            done at all means. I hopped back <br /> to app after gasping the
+            basics.
           </p>
         </div>
       </div>

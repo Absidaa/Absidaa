@@ -130,7 +130,8 @@ export default function Home() {
                 <Link href={"/helpProject"}>
                   <div className={styles.cardFonts}>
                     The best place to find vulunter helpers to help <br /> you
-                    gain your permit of stay. No worries, it's free of charge.
+                    gain your permit of stay. No worries, it&apos;s free of
+                    charge.
                   </div>
                 </Link>
               </Link>
@@ -155,8 +156,8 @@ export default function Home() {
               <div className="card">
                 <Link href={"/homeSession"}>
                   <div className={styles.homeSessionCardFonts}>
-                    Take your home workout to another level in a way that it'd
-                    inspire the soul to be more invisible.{" "}
+                    Take your home workout to another level in a way that
+                    it&apos;d inspire the soul to be more invisible.
                   </div>
                 </Link>
               </div>
