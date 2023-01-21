@@ -171,7 +171,7 @@ export default function Home() {
           absida8@gmail.com
         </Link>
         <div>
-          <div>
+          <div id="contact">
             <Link href="http://absida8@gmail.com">
               <p className={styles.comp}>👨🏾‍💻</p>
             </Link>
@@ -194,7 +194,7 @@ export default function Home() {
               <h6 className={styles.ink}>Links</h6>
               <Link href="/about">About</Link>
 
-              <Link href="/contact">Contact</Link>
+              <Link href="#contact">Contact</Link>
               <div>
                 <Link href="#project">Projects</Link>
               </div>

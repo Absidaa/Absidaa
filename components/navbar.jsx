@@ -24,7 +24,7 @@ export default function Navbar() {
             </Link>
 
             <Link href={"/#project"}>Projects</Link>
-            <Link href={"/contact"}>Contacts</Link>
+            <Link href={"/#contact"}>Contacts</Link>
             <Link href={"/"} className={styles.port} >Portfolio</Link>
           </div>
         </div>
@@ -43,7 +43,7 @@ export default function Navbar() {
                 <Link href="/about">About</Link>
                 <Link href="/#project">Projects </Link>
                 <div className={styles.act}>
-                  <Link href="/contact">Contact </Link>
+                  <Link href="/#contact">Contact </Link>
                 </div>
               </div>
             </div>
