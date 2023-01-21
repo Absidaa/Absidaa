@@ -563,7 +563,7 @@
 }
 .stakSession {
   margin-left: -2px;
-  margin-top: 10vh;
+  margin-top: 6vh;
   margin-bottom: 10px;
   text-transform: capitalize;
   font-size: 35px;
@@ -571,7 +571,7 @@
 }
 .livSession {
   margin-left: -2px;
-  margin-top: 10vh;
+  margin-top: 4vh;
   margin-bottom: 10px;
   text-transform: capitalize;
   font-size: 35px;

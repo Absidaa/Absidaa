@@ -45,18 +45,18 @@ export default function homeSession() {
           </div>
         </div>
         <Image
-          style={{ borderRadius: "25px" }}
+          style={{ borderRadius: "15px" }}
           src="/homeSessionScreenshot1.png"
           alt="Picture of the author"
-          width={490}
+          width={430}
           height={500}
         />
         <div className={styles.img2}>
           <Image
-            style={{ borderRadius: "25px", marginTop: "-54vh" }}
+            style={{ borderRadius: "10px", marginTop: "-54vh" }}
             src="/homeSessionScreenshot2.png"
             alt="Picture of the author"
-            width={200}
+            width={180}
             height={310}
           />
         </div>
