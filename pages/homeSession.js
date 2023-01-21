@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { FaReact } from "react-icons/fa";
+import Image from "next/image";
 export default function homeSession() {
   return (
     <>
@@ -42,6 +43,22 @@ export default function homeSession() {
               site
             </Link>
           </div>
+        </div>
+        <Image
+          style={{ borderRadius: "25px" }}
+          src="/homeSessionScreenshot1.png"
+          alt="Picture of the author"
+          width={490}
+          height={500}
+        />
+        <div className={styles.img2}>
+          <Image
+            style={{ borderRadius: "25px", marginTop: "-54vh" }}
+            src="/homeSessionScreenshot2.png"
+            alt="Picture of the author"
+            width={200}
+            height={310}
+          />
         </div>
         <div>
           <h3 className={styles.explain}>Project Purpose and Goal</h3>
