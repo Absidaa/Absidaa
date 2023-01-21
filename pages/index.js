@@ -125,15 +125,12 @@ export default function Home() {
 
         <div className={styles.card}>
           <div class={"card"}>
-            <div class="shadow-lg p-1  bg-body rounded">
+            <div class="shadow-lg   bg-body rounded">
               <Link href="/">
                 <Link href={"/helpProject"}>
                   <div className={styles.cardFonts}>
                     The best place to find vulunter helpers to help <br /> you
-                    gain your permit of stay.
-                    <div className={styles.free}>
-                      <p>free online helpers</p>
-                    </div>
+                    gain your permit of stay. No worries, it's free of charge.
                   </div>
                 </Link>
               </Link>
@@ -144,21 +141,24 @@ export default function Home() {
           <div className={styles.personalProject}>PERSONAL PROJECT</div>
           <div className={styles.homeSession}>Home Session</div>
           <p className={styles.homeSessionElighten}>
-            Take your home workouts to the next level and let your achevement
-            motivate others.
+            Upgrade your home workouts to the next level and let your <br />
+            achievement motivate others.
           </p>
-          <div>
-            <Link href={"/homeSession"}>
-              <button className={styles.homeSessionButton}>view project</button>
-            </Link>
-          </div>
+          <button className={styles.homeSessionButton}>
+            <div>
+              <Link href={"/homeSession"}>view project</Link>
+            </div>
+          </button>
 
           <div className={styles.homeSessionCard}>
-            <div class="shadow-lg p-1  bg-body rounded">
+            <div class="shadow-lg p-2  bg-body rounded">
               <div className="card">
-                <div className={styles.homeSessionCardFonts}>
-                  this home workout app would
-                </div>
+                <Link href={"/homeSession"}>
+                  <div className={styles.homeSessionCardFonts}>
+                    Take your home workout to another level in a way that it'd
+                    inspire the soul to be more invisible.
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -170,9 +170,11 @@ export default function Home() {
           absida8@gmail.com
         </Link>
         <div>
-          <Link href="http://absida8@gmail.com">
-            <div className={styles.comp}>👨🏾‍💻</div>
-          </Link>
+          <div>
+            <Link href="http://absida8@gmail.com">
+              <p className={styles.comp}>👨🏾‍💻</p>
+            </Link>
+          </div>
         </div>
       </div>
       <div>

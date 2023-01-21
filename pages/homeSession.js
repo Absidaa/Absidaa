@@ -10,11 +10,12 @@ export default function homeSession() {
       <div className={styles.homeSessionBody}>
         <h3 className={styles.homeSessionHeader}>Home Session</h3>
         <p>2 minute read</p>
-        <p>
+        <p className={styles.homeSessionBody1}>
           Workout and look fit is not a mordern thing but it&apos;s one of the
-          top five <br /> doctors&apos; prescriptionsin mordern days to keep you
-          healthy. <br /> I love workingout first thing before doing anything
-          else, so I decided <br /> to build the app that could keep me going.
+          top five doctors&apos; prescriptions <br />
+          in these mordern days to keep you healthy. I love workingout first
+          thing before doing anything <br />
+          else, so I decided to build the app that could keep me going.
         </p>
         <div>
           <div>
@@ -25,22 +26,63 @@ export default function homeSession() {
             />
           </div>
           <div>
-            <h3 className={styles.typ}>type</h3>
+            <h3 className={styles.typeSession}>type</h3>
             <div>Health App</div>
           </div>
-          <div className={styles.stk}>
-            <h3 className={styles.stak}>stack</h3>
+          <div className={styles.stkSession}>
+            <h3 className={styles.stakSession}>stack</h3>
 
             <div>React.js</div>
             <div>Bootstrap</div>
             <div>Styled-Components</div>
           </div>
-          <div className={styles.sit}>
-            <h3 className={styles.liv}>live</h3>
+          <div className={styles.sitSession}>
+            <h3 className={styles.livSession}>live</h3>
             <Link href={""} rel="noreferrer">
               site
             </Link>
           </div>
+        </div>
+        <div>
+          <h3 className={styles.explain}>Project Purpose and Goal</h3>
+          <p className={styles.homeSessionBody1}>
+            The Home Session Workout application is to keep yourself fit as time
+            flies by.
+          </p>
+          <p className={styles.homeSessionBody1}>
+            I love to keep myself fit and the first thing that I always do
+            whenever I hopped out of my bed is to <br /> do some exercises. So
+            the basic idea and goal of this application is to boost my workout
+            appetite, <br /> and above all, I always wanted to track the time
+            that I workout daily, because progress is vital key in <br /> every
+            aspect of our doings.
+          </p>
+        </div>
+        <div>
+          <h3 className={styles.explain}>Web Stack and Explaination</h3>
+          <p className={styles.homeSessionBody1}>
+            I was pleased to use static site rendering that recharges from a CMS
+            for a better production. I used <br /> React.js to statically
+            generate pages because I wanted to try something new and I feel
+            confident <br /> with their static generation as I was proceeding
+            with my code.
+          </p>
+          <p className={styles.homeSessionBody1}>
+            I deployed this applicaton on Vercel. After a lot of research I
+            thing they have edges on certain <br /> developing tool and the
+            Intergration of deploying and updating your app is on a whole other
+            level.
+          </p>
+          <h3 className={styles.explain}>Learned Skills</h3>
+          <p className={styles.homeSessionBody1}>
+            Making a web page or an application responsive was something that
+            made me tinkled my thoughts <br /> to attention. It was somehow a
+            bit of a headache for me, but after persisting to get to the bottom
+            of it, <br /> then I know it's a peace of cake. <b /> Another skill
+            that i picked up during this process was to put a timer <br /> in my
+            app. This halted my coding process because I wanted to get it done
+            at all means. I hopped back <br /> to app after gasping the basics.
+          </p>
         </div>
       </div>
 
@@ -72,7 +114,7 @@ export default function homeSession() {
               <div class="hstack gap-2">
                 <div>
                   <Link href="https://github.com/Absidaa/Absida" target="blank">
-                    <BsGithub />
+                    <BsGithub size={30} />
                   </Link>
                 </div>
 
@@ -81,12 +123,12 @@ export default function homeSession() {
                     href="https://www.linkedin.com/in/absida-04b9b3232/"
                     target="blank"
                   >
-                    <BsLinkedin />
+                    <BsLinkedin size={30} />
                   </Link>
                 </div>
                 <div>
                   <Link href="http://absida8@gmail.com" target="blank">
-                    <MdEmail />
+                    <MdEmail size={30} />
                   </Link>
                 </div>
               </div>
