@@ -7,8 +7,8 @@ import { FaReact } from "react-icons/fa";
 export default function homeSession() {
   return (
     <>
-      <div>
-        <h3>Home Session</h3>
+      <div className={styles.homeSessionBody}>
+        <h3 className={styles.homeSessionHeader}>Home Session</h3>
         <p>2 minute read</p>
         <p>
           Workout and look fit is not a mordern thing but it&apos;s one of the

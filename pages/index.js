@@ -145,11 +145,14 @@ export default function Home() {
           <div className={styles.homeSession}>Home Session</div>
           <p className={styles.homeSessionElighten}>
             Take your home workouts to the next level and let your achevement
-            motivate others.{" "}
+            motivate others.
           </p>
-          <Link href={"/homeSession"}>
-            <button className={styles.homeSessionButton}>view project</button>
-          </Link>
+          <div>
+            <Link href={"/homeSession"}>
+              <button className={styles.homeSessionButton}>view project</button>
+            </Link>
+          </div>
+
           <div className={styles.homeSessionCard}>
             <div class="shadow-lg p-1  bg-body rounded">
               <div className="card">
