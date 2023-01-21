@@ -696,8 +696,9 @@
   padding-left: 25px;
   padding-top: 30px;
   padding-right: 20px;
-  font-size: 25px;
-  font-family: "Seymour One", sans-serif;
+  font-size: 33px;
+  font-family: "Anton", sans-serif;
+  font-weight: 900;
   background-color: rgb(252, 252, 85);
 }
 .homeSessionCard :hover {
@@ -707,7 +708,9 @@
   cursor: pointer;
   border-radius: 25px;
 }
-
+.homeSessionCard a :hover {
+  color: black;
+}
 .homeSessionBody {
   margin-left: 35vh;
   margin-right: 10vh;
@@ -1014,8 +1017,9 @@
     padding-left: 25px;
     padding-top: 30px;
     padding-right: 20px;
-    font-size: 25px;
-    font-family: "Seymour One", sans-serif;
+    font-size: 33px;
+    font-family: "Anton", sans-serif;
+    font-weight: 900;
   }
   .contain {
     position: absolute;

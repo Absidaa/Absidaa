@@ -9,7 +9,7 @@ export default function homeSession() {
     <>
       <div className={styles.homeSessionBody}>
         <h3 className={styles.homeSessionHeader}>Home Session</h3>
-        <p>2 minute read</p>
+        <h6> Two minutes read!</h6>
         <p className={styles.homeSessionBody1}>
           Workout and look fit is not a mordern thing but it&apos;s one of the
           top five doctors&apos; prescriptions <br />
@@ -73,7 +73,7 @@ export default function homeSession() {
             Intergration of deploying and updating your app is on a whole other
             level.
           </p>
-          <h3 className={styles.explain}>Learned Skills</h3>
+          <h3 className={styles.explain}>Skills Learned </h3>
           <p className={styles.homeSessionBody1}>
             Making a web page or an application responsive was something that
             made me tinkled my thoughts <br /> to attention. It was somehow a

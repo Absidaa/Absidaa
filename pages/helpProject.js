@@ -66,9 +66,9 @@ export default function helpProject() {
         </p>
         <p>
           This idea was to decentralize the ways immigrants got help for the
-          past decades. Now an individual seat <br />
-          back and do most of the process online. This would also decrease the
-          work load of the immigration personels.
+          past decades. <br /> Now an individual seat back and do most of the
+          process online. This would also decrease the work <br /> load of the
+          immigration personels.
         </p>
         <h3 className={styles.explain}>Web Stack and Explaination</h3>
         <p>
@@ -79,13 +79,33 @@ export default function helpProject() {
         </p>
         <p>
           This project uses APIs that are commonly executed on a server. All the
-          sensitive data is kept safe using environment variables.
+          sensitive data is kept safe using <br /> environment variables.
         </p>
         <p>
           We deployed the site to Heroku because we are very comfortable with
-          the tools they provide for continuous deployment <br />
-          and integration.
+          the tools they provide for continuous <br /> deployment and
+          integration.
         </p>
+
+        <div>
+          <h3 className={styles.explain}> Skills Learned</h3>
+          <p>
+            I've never felt comfortable around anything that involves backend, I
+            tried so hard to absorbed <br /> those beautiful strings whenever my
+            tutor was giving lectures but I still couldn't place my hands <br />
+            on something in particular that I cannot tell. But this project
+            right here open up the doors with <br /> a shining lights lighting
+            up upon my face with lots of hope.{" "}
+          </p>
+          <p>
+            In this project, I Learned how to plane a project in Figma then take
+            to a database drawing diagram. <br /> In the sql diagram, I learned
+            how to connect different tables whenever you may want to extract
+            information. <br /> Then going to Visual Studio Code and commence
+            the actual project, I never knew how to build a database <br /> from
+            scratch, luckily for me I wrapped my hands around that foundation.{" "}
+          </p>
+        </div>
       </div>
       <div>
         <footer className={styles.footer}>

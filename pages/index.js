@@ -156,7 +156,7 @@ export default function Home() {
                 <Link href={"/homeSession"}>
                   <div className={styles.homeSessionCardFonts}>
                     Take your home workout to another level in a way that it'd
-                    inspire the soul to be more invisible.
+                    inspire the soul to be more invisible.{" "}
                   </div>
                 </Link>
               </div>
