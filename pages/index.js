@@ -63,7 +63,7 @@ export default function Home() {
           height={300}
         />
       </div>
-      <h2 className={styles.skills}>My Skills me</h2>
+      <h2 className={styles.skills}>My Skills</h2>
 
       <div className={styles.softs}>
         <div className={styles.java}>JavaScript </div>
