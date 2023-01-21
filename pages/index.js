@@ -111,10 +111,9 @@ export default function Home() {
           <div className={styles.stack}>full stack developer/tech manager</div>
           <h1 className={styles.ihelpDescription}>I-help</h1>
           <div className={styles.helpDes}>
-            It took a dedicated team of 4 developers to create core features
-            <br />
-            and integrate it PostgreSQL. Implemented code linting, database
-            <br /> migration and preview deploys.
+            It took a dedicated team of 4 developers to create core features and
+            integrate it PostgreSQL. Implemented code linting, database
+            migration and preview deploys.
           </div>
           <button className={styles.view1}>
             <div onClick={(e) => handleClick(e, "/helpProjrct")}>
