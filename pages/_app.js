@@ -2,6 +2,7 @@ import "../styles/globals.css";
 import React from "react";
 import { useEffect, useState } from "react";
 import Navbar from "../components/navbar";
+import Link from "next/link";
 
 export default function App({ Component, pageProps }) {
   //  Whenever you're facing this problem 👇🏾
