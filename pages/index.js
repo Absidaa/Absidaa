@@ -21,7 +21,7 @@ export default function Home() {
             <div> Hello, there👋🏾😊 I am Abdallah |</div>
             <div className={styles.container}>
               <a
-                title="Frontend developer"
+                title="FRONTEND DEVELOPER"
                 data-toggle="popover"
                 data-trigger="hover"
               >
