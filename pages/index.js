@@ -98,7 +98,10 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.tec}>Discovering the world of tech</div>
-      <div className={styles.des}>
+      <div
+        className={styles.des}
+        style={{ fontFamily: "Roboto", fontSize: "2rem" }}
+      >
         <div>
           The first technology device that I sat my eyes on was like a magic,
           <br />
@@ -106,8 +109,13 @@ export default function Home() {
           but I counldn&quot;t figure out exactly what was it.
         </div>
 
-        <div className={styles.bio}>
-          <Link href={"/about"}>Continue with my bio</Link>
+        <div
+          className={styles.bio}
+          style={{ fontFamily: "Roboto", fontSize: "2rem" }}
+        >
+          <Link href={"/about"} style={{ textDecoration: "none" }}>
+            Continue with my bio
+          </Link>
         </div>
       </div>
 
@@ -117,16 +125,28 @@ export default function Home() {
             <div id="project">Projects</div>
           </h1>
 
-          <div className={styles.stack}>full stack developer/tech manager</div>
-          <h1 className={styles.ihelpDescription}>I-help</h1>
-          <div className={styles.helpDes}>
+          <div
+            className={styles.stack}
+            style={{ fontFamily: "Roboto", fontSize: "2rem" }}
+          >
+            full stack developer/tech manager
+          </div>
+          <h1 className={styles.ihelpDescription} style={{ fontSize: "6rem" }}>
+            I-help
+          </h1>
+          <div
+            className={styles.helpDes}
+            style={{ fontFamily: "Roboto", fontSize: "2rem" }}
+          >
             It took a dedicated team of 4 developers to create core features and
             integrate it PostgreSQL. Implemented code linting, database
             migration and preview deploys.
           </div>
-          <button className={styles.view1}>
+          <button className={styles.view1} style={{ width: "22.5vh" }}>
             <div onClick={(e) => handleClick(e, "/helpProjrct")}>
-              <Link href={"/helpProject"}>view project</Link>
+              <Link href={"/helpProject"} style={{ textDecoration: "none" }}>
+                view project
+              </Link>
             </div>
           </button>
         </div>
@@ -134,8 +154,8 @@ export default function Home() {
         <div className={styles.card}>
           <div class={"card"}>
             <div class="shadow-lg   bg-body rounded">
-              <Link href="/">
-                <Link href={"/helpProject"}>
+              <Link href="/" style={{ textDecoration: "none" }}>
+                <Link href={"/helpProject"} style={{ textDecoration: "none" }}>
                   <div className={styles.cardFonts}>
                     The best place to find vulunter helpers to help <br /> you
                     gain your permit of stay. No worries, it&apos;s free of
@@ -149,20 +169,25 @@ export default function Home() {
         <div>
           <div className={styles.personalProject}>PERSONAL PROJECT</div>
           <div className={styles.homeSession}>Home Session</div>
-          <p className={styles.homeSessionElighten}>
+          <p
+            className={styles.homeSessionElighten}
+            style={{ fontFamily: "Roboto", fontSize: "2rem" }}
+          >
             Upgrade your home workouts to the next level and let your <br />
             achievement motivate others.
           </p>
           <button className={styles.homeSessionButton}>
             <div>
-              <Link href={"/homeSession"}>view project</Link>
+              <Link href={"/homeSession"} style={{ textDecoration: "none" }}>
+                view project
+              </Link>
             </div>
           </button>
 
           <div className={styles.homeSessionCard}>
             <div class="shadow-lg p-2  bg-body rounded">
               <div className="card">
-                <Link href={"/homeSession"}>
+                <Link href={"/homeSession"} style={{ textDecoration: "none" }}>
                   <div className={styles.homeSessionCardFonts}>
                     Take your home workout to another level in a way that
                     it&apos;d inspire the soul to be more invisible.
@@ -175,12 +200,19 @@ export default function Home() {
       </div>
       <div className={styles.cha}>
         <div className={styles.chat}>I am open to chat !</div>
-        <Link href="https:/www.absida8@gmail.com" target="blank">
+        <Link
+          href="https:/www.absida8@gmail.com"
+          target="blank"
+          style={{ textDecoration: "none" }}
+        >
           absida8@gmail.com
         </Link>
         <div>
           <div id="contact">
-            <Link href="http://absida8@gmail.com">
+            <Link
+              href="http://absida8@gmail.com"
+              style={{ textDecoration: "none" }}
+            >
               <p className={styles.comp}>👨🏾‍💻</p>
             </Link>
           </div>
@@ -191,7 +223,9 @@ export default function Home() {
           <div className={styles.footerLeft}>
             <div className={styles.footer_content}>
               <div className={styles.name}>
-                <Link href={"/#top"}>Abdallah Sahid Dumbuya</Link>
+                <Link href={"/#top"} style={{ textDecoration: "none" }}>
+                  Abdallah Sahid Dumbuya
+                </Link>
               </div>
               &copy; {new Date().getFullYear()} built and designed by,
               <p>Abdallah Sahid Dumbuya</p>
@@ -200,11 +234,17 @@ export default function Home() {
           <div className={styles.footerMiddle}>
             <div className={styles.link}>
               <h6 className={styles.ink}>Links</h6>
-              <Link href="/about">About</Link>
+              <Link href="/about" style={{ textDecoration: "none" }}>
+                About
+              </Link>
 
-              <Link href="#contact">Contact</Link>
+              <Link href="#contact" style={{ textDecoration: "none" }}>
+                Contact
+              </Link>
               <div>
-                <Link href="#project">Projects</Link>
+                <Link href="#project" style={{ textDecoration: "none" }}>
+                  Projects
+                </Link>
               </div>
             </div>
           </div>

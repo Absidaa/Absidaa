@@ -12,6 +12,11 @@ export default function Navbar() {
         <div className={styles.leftSide}>
           <div className={styles.links} id={showLinks ? "hidden" : ""}>
             <Link href={"/about"}>
+               <div
+                title="ABOUT"
+                data-toggle="popover"
+                data-trigger="hover"
+              >
               <Image
                 style={{ borderRadius: "50px" }}
                 size="xl"
@@ -20,7 +25,8 @@ export default function Navbar() {
                 alt="@superman66"
                 width={30}
                 height={30}
-              />
+                />
+              </div>  
             </Link>
 
             <Link href={"/#project"}>Projects</Link>
@@ -40,10 +46,10 @@ export default function Navbar() {
                 <i class="fa fa-caret-down"></i>
               </button>
               <div className={styles.dropdown_content}>
-                <Link href="/about">About</Link>
-                <Link href="/#project">Projects </Link>
+                <Link href="/about" style={{ textDecoration: "none" }}>About</Link>
+                <Link href="/#project"style={{ textDecoration: "none" }}>Projects </Link>
                 <div className={styles.act}>
-                  <Link href="/#contact">Contact </Link>
+                  <Link href="/#contact"style={{ textDecoration: "none" }}>Contact </Link>
                 </div>
               </div>
             </div>

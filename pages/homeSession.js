@@ -10,7 +10,10 @@ export default function homeSession() {
     <>
       <div className={styles.homeSessionBody}>
         <h3 className={styles.homeSessionHeader}>Home Session</h3>
-        <h6> Two minutes read!</h6>
+        <h5 style={{ fontFamily: "Roboto", fontSize: "16px" }}>
+          {" "}
+          Two minutes read!
+        </h5>
         <p className={styles.homeSessionBody1}>
           Workout and look fit is not a mordern thing but it&apos;s one of the
           top five doctors&apos; prescriptions <br />
@@ -28,14 +31,14 @@ export default function homeSession() {
           </div>
           <div>
             <h3 className={styles.typeSession}>type</h3>
-            <div>Health App</div>
+            <div style={{ fontSize: "1.6rem" }}>Health App</div>
           </div>
           <div className={styles.stkSession}>
             <h3 className={styles.stakSession}>stack</h3>
 
-            <div>React.js</div>
-            <div>Bootstrap</div>
-            <div>Styled-Components</div>
+            <div style={{ fontSize: "1.6rem" }}>React.js</div>
+            <div style={{ fontSize: "1.6rem" }}>Bootstrap</div>
+            <div style={{ fontSize: "1.6rem" }}>Styled-Components</div>
           </div>
           <div className={styles.sitSession}>
             <h3 className={styles.livSession}>live</h3>
@@ -45,7 +48,7 @@ export default function homeSession() {
           </div>
         </div>
         <Image
-          style={{ borderRadius: "15px" }}
+          style={{ borderRadius: "15px", marginLeft: "-20px" }}
           src="/homeSessionScreenshot1.png"
           alt="Picture of the author"
           width={430}
@@ -53,7 +56,11 @@ export default function homeSession() {
         />
         <div className={styles.img2}>
           <Image
-            style={{ borderRadius: "10px", marginTop: "-54vh" }}
+            style={{
+              borderRadius: "10px",
+              marginTop: "-54vh",
+              marginLeft: "-20px",
+            }}
             src="/homeSessionScreenshot2.png"
             alt="Picture of the author"
             width={180}
@@ -109,7 +116,9 @@ export default function homeSession() {
           <div className={styles.footerLeft}>
             <div className={styles.footer_content}>
               <div className={styles.name}>
-                <Link href={"/#top"}>Abdallah Sahid Dumbuya</Link>
+                <Link href={"/#top"} style={{ textDecoration: "none" }}>
+                  Abdallah Sahid Dumbuya
+                </Link>
               </div>
               &copy; {new Date().getFullYear()} built and designed by,
               <p>Abdallah Sahid Dumbuya</p>
@@ -118,11 +127,17 @@ export default function homeSession() {
           <div className={styles.footerMiddle}>
             <div className={styles.link}>
               <h6 className={styles.ink}>Links</h6>
-              <Link href="/about">About</Link>
+              <Link href="/about" style={{ textDecoration: "none" }}>
+                About
+              </Link>
 
-              <Link href="/contact">Contact</Link>
+              <Link href="/contact" style={{ textDecoration: "none" }}>
+                Contact
+              </Link>
               <div>
-                <Link href="#project">Projects</Link>
+                <Link href="#project" style={{ textDecoration: "none" }}>
+                  Projects
+                </Link>
               </div>
             </div>
           </div>
