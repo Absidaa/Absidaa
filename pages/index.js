@@ -40,7 +40,7 @@ export default function Home() {
             <div class="hstack gap-2">
               <div>
                 <Link href="https://github.com/Absidaa/Absida" target="blank">
-                  <BsGithub />
+                  <BsGithub size={30} />
                 </Link>
               </div>
 
@@ -49,12 +49,12 @@ export default function Home() {
                   href="https://www.linkedin.com/in/absida-04b9b3232/"
                   rel="noreferrer"
                 >
-                  <BsLinkedin />
+                  <BsLinkedin size={30} />
                 </Link>
               </div>
               <div>
                 <Link href="http://absida8@gmail.com" target="blank">
-                  <MdEmail />
+                  <MdEmail size={30} />
                 </Link>
               </div>
             </div>
@@ -142,7 +142,7 @@ export default function Home() {
             integrate it PostgreSQL. Implemented code linting, database
             migration and preview deploys.
           </div>
-          <button className={styles.view1} style={{ width: "22.5vh" }}>
+          <button className={styles.view1}>
             <div onClick={(e) => handleClick(e, "/helpProjrct")}>
               <Link href={"/helpProject"} style={{ textDecoration: "none" }}>
                 view project

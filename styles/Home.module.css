@@ -296,6 +296,10 @@
   margin-top: 10px;
   text-transform: capitalize;
 }
+.shadow {
+  box-shadow: rgb(88 88 88) 1px 3px 20px 16px;
+  width: 68vh;
+}
 
 .view1 {
   margin-bottom: 40px;
@@ -316,6 +320,7 @@
 .view1 :hover {
   color: rgb(255, 152, 169);
 }
+
 .view1 :active {
   text-decoration: none;
   color: rgb(0, 255, 0);
@@ -1181,6 +1186,11 @@
     padding-left: 30px;
     padding: 30px;
   }
+  .shadow {
+    box-shadow: rgb(88 88 88) 1px 3px 20px 16px;
+    width: 48vh;
+  }
+
   .me {
     height: 100vh;
     width: 47vh;
@@ -1198,8 +1208,6 @@
     border-radius: 10px;
     color: white;
     border-color: white;
-    width: 50%;
-    height: 50%;
   }
   .card {
     width: 60%;
@@ -1438,6 +1446,22 @@
     transform: translate(-50%, -50%);
     padding-left: 30px;
     padding: 30px;
+  }
+  .appImage {
+    margin-left: -26px;
+  }
+  .shadow {
+    box-shadow: rgb(88 88 88) 10px 3px 20px 30px;
+    width: 45vh;
+  }
+
+  .homeSessionBody1 {
+    font-size: 40px;
+    margin-right: -190px;
+  }
+  .explain {
+    font-size: 30px;
+    font-weight: bolder;
   }
   .me {
     height: 100vh;
@@ -1845,6 +1869,26 @@
     padding-left: 30px;
     padding: 30px;
   }
+  .homeSessionBody1 {
+    font-size: 25px;
+    margin-right: -70px;
+  }
+  .appImage {
+    margin-left: -26px;
+  }
+  .shadow {
+    box-shadow: rgb(88 88 88) 10px 3px 20px 30px;
+    width: 45vh;
+  }
+
+  .homeSessionBody1 {
+    font-size: 30px;
+    margin-right: -100px;
+  }
+  .explain {
+    font-size: 29px;
+    font-weight: bolder;
+  }
   .skills {
     margin-top: -55vh;
     margin-bottom: 60vh;
@@ -2006,6 +2050,22 @@
     transform: translate(-50%, -50%);
     padding-left: 30px;
     padding: 30px;
+  }
+
+  .homeSessionBody1 {
+    font-size: 30px;
+    margin-right: -100px;
+  }
+  .appImage {
+    margin-left: -14px;
+  }
+  .shadow {
+    box-shadow: rgb(88 88 88) 10px 3px 20px 30px;
+    width: 45vh;
+  }
+  .explain {
+    font-size: 27px;
+    font-weight: bolder;
   }
   .skills {
     margin-top: -52vh;

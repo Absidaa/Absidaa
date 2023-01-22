@@ -47,13 +47,17 @@ export default function homeSession() {
             </Link>
           </div>
         </div>
-        <Image
-          style={{ borderRadius: "15px", marginLeft: "-20px" }}
-          src="/homeSessionScreenshot1.png"
-          alt="Picture of the author"
-          width={430}
-          height={500}
-        />
+        <div className={styles.shadow}>
+          <div className={styles.appImage}>
+            <Image
+              style={{ borderRadius: "10px", marginLeft: "-20px" }}
+              src="/homeSessionScreenshot1.png"
+              alt="Picture of the author"
+              width={430}
+              height={500}
+            />
+          </div>
+        </div>
         <div className={styles.img2}>
           <Image
             style={{
@@ -67,6 +71,7 @@ export default function homeSession() {
             height={310}
           />
         </div>
+
         <div>
           <h3 className={styles.explain}>Project Purpose and Goal</h3>
           <p className={styles.homeSessionBody1}>
