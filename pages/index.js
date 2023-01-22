@@ -19,7 +19,15 @@ export default function Home() {
         <div className="px-3">
           <div className={styles.greet}>
             <div> Hello, there👋🏾😊 I am Abdallah |</div>
-            <div className={styles.domain}>Software Engineer</div>
+            <div className={styles.container}>
+              <a
+                title="Frontend developer"
+                data-toggle="popover"
+                data-trigger="hover"
+              >
+                <div className={styles.domain}>Software Engineer</div>
+              </a>
+            </div>
           </div>
           <div>
             <div className={styles.path}>
@@ -102,6 +110,7 @@ export default function Home() {
           <Link href={"/about"}>Continue with my bio</Link>
         </div>
       </div>
+
       <div>
         <div className={styles.left}>
           <h1 className={styles.projects}>
