@@ -41,7 +41,7 @@ export default function Navbar() {
         <div className={styles.rightSide}>
           <div class="navbar">
             <div className={styles.dropdown}>
-              <button className={styles.dropbtn}>
+              <button className={styles.dropbtn} style={{marginTop: "17px"}}>
                 Dropdown
                 <i class="fa fa-caret-down"></i>
               </button>

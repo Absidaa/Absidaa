@@ -65,7 +65,7 @@ export default function Home() {
       <div className={styles.abimg}>
         <Image
           src="/picInwhite.jpg"
-          class="rounded mx-auto d-block"
+          className="rounded mx-auto d-block"
           alt="the author print"
           width={250}
           height={300}

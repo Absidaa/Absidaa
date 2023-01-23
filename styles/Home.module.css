@@ -1191,6 +1191,20 @@
     width: 48vh;
   }
 
+  .des {
+    font-size: 40px;
+    margin-right: -100px;
+  }
+  .helpDes {
+    font-size: 40px;
+    margin-right: -100px;
+  }
+  .homeSessionElighten {
+    font-size: 10px;
+    margin-right: -100px;
+    font-family: Roboto;
+  }
+
   .me {
     height: 100vh;
     width: 47vh;
@@ -1447,6 +1461,21 @@
     padding-left: 30px;
     padding: 30px;
   }
+
+  .des {
+    font-size: 40px;
+    margin-right: -100px;
+  }
+  .helpDes {
+    font-size: 40px;
+    margin-right: -100px;
+  }
+  .homeSessionElighten {
+    font-size: 10px;
+    margin-right: -100px;
+    font-family: Roboto;
+  }
+
   .appImage {
     margin-left: -26px;
   }
@@ -1869,6 +1898,7 @@
     padding-left: 30px;
     padding: 30px;
   }
+
   .homeSessionBody1 {
     font-size: 25px;
     margin-right: -70px;
@@ -2050,6 +2080,19 @@
     transform: translate(-50%, -50%);
     padding-left: 30px;
     padding: 30px;
+  }
+  .des {
+    font-size: 40px;
+    margin-right: -100px;
+  }
+  .helpDes {
+    font-size: 40px;
+    margin-right: -100px;
+  }
+  .homeSessionElighten {
+    font-size: 10px;
+    margin-right: -100px;
+    font-family: Roboto;
   }
 
   .homeSessionBody1 {
