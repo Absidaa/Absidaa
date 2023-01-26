@@ -318,7 +318,9 @@
 }
 
 .view1 :hover {
-  color: rgb(255, 152, 169);
+  transform: translate(0px, -2%);
+  box-decoration-break: rgb(88 88 88) -0.1px 30px 10px -1px;
+  cursor: pointer;
 }
 
 .view1 :active {

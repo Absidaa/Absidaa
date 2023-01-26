@@ -138,8 +138,10 @@ export default function Home() {
             className={styles.helpDes}
             style={{ fontFamily: "Roboto", fontSize: "2rem" }}
           >
-            It took a dedicated team of 4 developers to create core features and
-            integrate it PostgreSQL. Implemented code linting, database
+            It took a dedicated team of 4 developers to create core features
+            <br />
+            and integrate it PostgreSQL. Implemented code linting, database
+            <br />
             migration and preview deploys.
           </div>
           <button className={styles.view1}>
@@ -168,7 +170,7 @@ export default function Home() {
         </div>
         <div>
           <div className={styles.personalProject}>PERSONAL PROJECT</div>
-          <div className={styles.homeSession}>Home Session</div>
+          <div className={styles.homeSession}>Stay Fit</div>
           <p
             className={styles.homeSessionElighten}
             style={{ fontFamily: "Roboto", fontSize: "2rem" }}
