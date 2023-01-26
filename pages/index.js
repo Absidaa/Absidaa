@@ -20,11 +20,7 @@ export default function Home() {
           <div className={styles.greet}>
             <div> Hello, there👋🏾😊 I am Abdallah |</div>
             <div className={styles.container}>
-              <a
-                title="FRONTEND DEVELOPER"
-                data-toggle="popover"
-                data-trigger="hover"
-              >
+              <a title="FRONTEND DEVELOPER">
                 <div className={styles.domain}>Software Engineer</div>
               </a>
             </div>
@@ -170,7 +166,7 @@ export default function Home() {
         </div>
         <div>
           <div className={styles.personalProject}>PERSONAL PROJECT</div>
-          <div className={styles.homeSession}>Stay Fit</div>
+          <div className={styles.homeSession}>Stay Fit!</div>
           <p
             className={styles.homeSessionElighten}
             style={{ fontFamily: "Roboto", fontSize: "2rem" }}
