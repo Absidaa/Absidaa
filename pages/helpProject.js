@@ -124,7 +124,7 @@ export default function helpProject() {
               <h6 className={styles.ink}>Links</h6>
               <Link href="/about">About</Link>
 
-              <Link href="/contact">Contact</Link>
+              <Link href="/#contact">Contact</Link>
 
               <Link href="/#project">Projects</Link>
             </div>

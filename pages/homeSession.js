@@ -133,7 +133,7 @@ export default function homeSession() {
                 About
               </Link>
 
-              <Link href="/contact" style={{ textDecoration: "none" }}>
+              <Link href="/#contact" style={{ textDecoration: "none" }}>
                 Contact
               </Link>
               <div>

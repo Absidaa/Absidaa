@@ -146,7 +146,7 @@ export default function About() {
                 About
               </Link>
 
-              <Link href="/contact" style={{ textDecoration: "none" }}>
+              <Link href="/#contact" style={{ textDecoration: "none" }}>
                 Contact
               </Link>
 

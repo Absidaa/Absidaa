@@ -172,8 +172,7 @@
   margin-right: 30vh;
   margin-left: 30vh;
   margin-top: 30px;
-  font-family: Muli;
-  font-family: Arial, Helvetica, sans-serif;
+
   font-weight: 300;
   font-size: 1.3rem;
   margin-bottom: 20vh;
@@ -1930,6 +1929,98 @@
     padding-left: 30px;
     padding: 30px;
   }
+  .tech {
+    font-size: 30px;
+  }
+  .footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: rgb(197, 112, 112);
+    color: black;
+    height: 30vh;
+  }
+  .footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 25px;
+  }
+
+  .footer .footerLeft {
+    flex: 33.3%;
+    margin-left: 20px;
+  }
+
+  .footer .footerRight {
+    flex: 33.3%;
+    margin-top: -60px;
+  }
+
+  .footer .footerMiddle {
+    flex: 33.3%;
+  }
+
+  .name {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .name a {
+    text-decoration: none;
+    color: black;
+  }
+  .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 22px;
+    font-weight: bolder;
+  }
+  .ink {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -4px;
+    margin-left: 5vh;
+  }
+  .link a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+    margin-left: 5vh;
+  }
+  .footer_socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    float: right;
+    margin-right: 40px;
+    margin-top: -50px;
+    margin-bottom: 15px;
+  }
+  .footer_socials a {
+    color: black;
+  }
+  .footerRight .intouch {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-right: -4vh;
+  }
+
+  .des {
+    font-size: 30px;
+    margin-right: -70px;
+  }
 
   .homeSessionBody1 {
     font-size: 25px;
@@ -2098,6 +2189,10 @@
   .homeSession {
     font-size: 33px;
     font-weight: bolder;
+  }
+  .chat {
+    font-size: 25px;
+    margin-left: 14vh;
   }
 }
 
