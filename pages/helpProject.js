@@ -13,7 +13,7 @@ export default function helpProject() {
       <div className={styles.brif}>
         <div>
           <p>A munite read.</p>
-          <p>
+          <p style={{ fontFamily: "Roboto", fontSize: "2rem" }}>
             i-help is a web application that helps refuge seekers in Italy that
             came from all over the world. <br />
             The goal was to create a fast web application and a convinient place
@@ -58,30 +58,30 @@ export default function helpProject() {
           />
         </div>
         <h3 className={styles.gol}>Project Purpose and Goal</h3>
-        <p>
-          i-help is a web application that helps refuge seekers in Italy that
+        <p style={{ fontFamily: "Roboto", fontSize: "2rem" }}>
+          I-help is a web application that helps refuge seekers in Italy that
           came from all over the world. <br />
           The goal was to create a fast web application and a convinient place
           that people would feel at home.
         </p>
-        <p>
+        <p style={{ fontFamily: "Roboto", fontSize: "2rem" }}>
           This idea was to decentralize the ways immigrants got help for the
           past decades. <br /> Now an individual seat back and do most of the
           process online. This would also decrease the work <br /> load of the
           immigration personels.
         </p>
         <h3 className={styles.explain}>Web Stack and Explaination</h3>
-        <p>
+        <p style={{ fontFamily: "Roboto", fontSize: "2rem" }}>
           We chose a server side rendered site that would load from a CDN to
           achieve the fastest loading times. <br />
           We decided to choose Nextjs for the static page generation because
           their static generation is second to none.
         </p>
-        <p>
+        <p style={{ fontFamily: "Roboto", fontSize: "2rem" }}>
           This project uses APIs that are commonly executed on a server. All the
           sensitive data is kept safe using <br /> environment variables.
         </p>
-        <p>
+        <p style={{ fontFamily: "Roboto", fontSize: "2rem" }}>
           We deployed the site to Heroku because we are very comfortable with
           the tools they provide for continuous <br /> deployment and
           integration.
@@ -89,7 +89,7 @@ export default function helpProject() {
 
         <div>
           <h3 className={styles.explain}> Skills Learned</h3>
-          <p>
+          <p style={{ fontFamily: "Roboto", fontSize: "2rem" }}>
             I&apos;ve never felt comfortable around anything that involves
             backend, I tried so hard to absorbed <br /> those beautiful strings
             whenever my tutor was giving lectures but I still couldn&apos;t
@@ -98,7 +98,7 @@ export default function helpProject() {
             right here open up the doors with <br /> a shining lights lighting
             up upon my face with lots of hope.
           </p>
-          <p>
+          <p style={{ fontFamily: "Roboto", fontSize: "2rem" }}>
             In this project, I Learned how to plane a project in Figma then take
             to a database drawing diagram. <br /> In the sql diagram, I learned
             how to connect different tables whenever you may want to extract
@@ -135,7 +135,7 @@ export default function helpProject() {
               <div class="hstack gap-2">
                 <div>
                   <Link href="https://github.com/Absidaa/Absida" target="blank">
-                    <BsGithub />
+                    <BsGithub size={25} />
                   </Link>
                 </div>
 
@@ -144,12 +144,12 @@ export default function helpProject() {
                     href="https://www.linkedin.com/in/absida-04b9b3232/"
                     target="blank"
                   >
-                    <BsLinkedin />
+                    <BsLinkedin size={25} />
                   </Link>
                 </div>
                 <div>
                   <Link href="http://absida8@gmail.com" target="blank">
-                    <MdEmail />
+                    <MdEmail size={25} />
                   </Link>
                 </div>
               </div>

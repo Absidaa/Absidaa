@@ -140,7 +140,7 @@ export default function Home() {
             <br />
             migration and preview deploys.
           </div>
-          <button className={styles.view1}>
+          <button className={styles.homeSessionButton2}>
             <div onClick={(e) => handleClick(e, "/helpProjrct")}>
               <Link href={"/helpProject"} style={{ textDecoration: "none" }}>
                 view project
@@ -166,7 +166,7 @@ export default function Home() {
         </div>
         <div>
           <div className={styles.personalProject}>PERSONAL PROJECT</div>
-          <div className={styles.homeSession}>Stay Fit!</div>
+          <div className={styles.homeSession}>Stay Fit</div>
           <p
             className={styles.homeSessionElighten}
             style={{ fontFamily: "Roboto", fontSize: "2rem" }}
@@ -252,7 +252,7 @@ export default function Home() {
               <div class="hstack gap-2">
                 <div>
                   <Link href="https://github.com/Absidaa/Absida" target="blank">
-                    <BsGithub size={30} />
+                    <BsGithub size={25} />
                   </Link>
                 </div>
 
@@ -261,12 +261,12 @@ export default function Home() {
                     href="https://www.linkedin.com/in/absida-04b9b3232/"
                     target="blank"
                   >
-                    <BsLinkedin size={30} />
+                    <BsLinkedin size={25} />
                   </Link>
                 </div>
                 <div>
                   <Link href="http://absida8@gmail.com" target="blank">
-                    <MdEmail size={30} />
+                    <MdEmail size={25} />
                   </Link>
                 </div>
               </div>

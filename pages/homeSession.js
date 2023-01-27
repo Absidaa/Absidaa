@@ -9,11 +9,8 @@ export default function homeSession() {
   return (
     <>
       <div className={styles.homeSessionBody}>
-        <h3 className={styles.homeSessionHeader}>Home Session</h3>
-        <h5 style={{ fontFamily: "Roboto", fontSize: "16px" }}>
-          {" "}
-          Two minutes read!
-        </h5>
+        <h3 className={styles.homeSessionHeader}>Stay Fit</h3>
+        <p>Two minutes read.</p>
         <p className={styles.homeSessionBody1}>
           Workout and look fit is not a mordern thing but it&apos;s one of the
           top five doctors&apos; prescriptions <br />
@@ -31,7 +28,7 @@ export default function homeSession() {
           </div>
           <div>
             <h3 className={styles.typeSession}>type</h3>
-            <div style={{ fontSize: "1.6rem" }}>Health App</div>
+            <div style={{ fontSize: "1.6rem" }}>Fitness App</div>
           </div>
           <div className={styles.stkSession}>
             <h3 className={styles.stakSession}>stack</h3>
@@ -152,7 +149,7 @@ export default function homeSession() {
               <div class="hstack gap-2">
                 <div>
                   <Link href="https://github.com/Absidaa/Absida" target="blank">
-                    <BsGithub size={30} />
+                    <BsGithub size={25} />
                   </Link>
                 </div>
 
@@ -161,12 +158,12 @@ export default function homeSession() {
                     href="https://www.linkedin.com/in/absida-04b9b3232/"
                     target="blank"
                   >
-                    <BsLinkedin size={30} />
+                    <BsLinkedin size={25} />
                   </Link>
                 </div>
                 <div>
                   <Link href="http://absida8@gmail.com" target="blank">
-                    <MdEmail size={30} />
+                    <MdEmail size={25} />
                   </Link>
                 </div>
               </div>

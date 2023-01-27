@@ -27,10 +27,10 @@ export default function About() {
         </div>
 
         <div>
-          <div className={styles.techWise}>
-            I have been hovering different devices since when I was young.
-          </div>
           <p style={{ fontFamily: "Roboto", fontSize: "2rem" }}>
+            <div className={styles.techWise}>
+              I have been hovering different devices since when I was young.
+            </div>
             3D computer games like Molta Kombat and FIFA psp got me knee to sub
             zero. <br />
             Back home in Sierra Leone, I fixed broken deviecs in my community,
@@ -50,10 +50,11 @@ export default function About() {
             was.
           </p>
           <div>
-            <span className={styles.techWise}>
-              Since then, I haven&apos;t stopped learning about the tech world.
-            </span>
             <p style={{ fontFamily: "Roboto", fontSize: "2rem" }}>
+              <span className={styles.techWise}>
+                Since then, I haven&apos;t stopped learning about the tech
+                world.
+              </span>
               I&apos;ve been involving in online trading, helping taders open
               their trading accounts then <br />
               show them how they could get around the platform.
@@ -140,7 +141,7 @@ export default function About() {
           </div>
           <div className={styles.footerMiddle}>
             <div className={styles.link}>
-              <h6>Links</h6>
+              <h6 className={styles.ink}>Links</h6>
               <Link href="/about" style={{ textDecoration: "none" }}>
                 About
               </Link>
@@ -160,7 +161,7 @@ export default function About() {
               <div class="hstack gap-2">
                 <div>
                   <Link href="https://github.com/Absidaa/Absida" target="blank">
-                    <BsGithub />
+                    <BsGithub size={25} />
                   </Link>
                 </div>
 
@@ -169,12 +170,12 @@ export default function About() {
                     href="https://www.linkedin.com/in/absida-04b9b3232/"
                     target="blank"
                   >
-                    <BsLinkedin />
+                    <BsLinkedin size={25} />
                   </Link>
                 </div>
                 <div>
                   <Link href="http://absida8@gmail.com" target="blank">
-                    <MdEmail />
+                    <MdEmail size={25} />
                   </Link>
                 </div>
               </div>

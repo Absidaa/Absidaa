@@ -72,7 +72,6 @@
   margin-top: 25px;
   font-weight: 300;
   font-size: 1.3rem;
-  font-family: Arial, Helvetica, sans-serif;
 }
 .bio {
   font-weight: bold;
@@ -107,7 +106,7 @@
 
 .footer .footerLeft {
   flex: 33.3%;
-  margin-left: 50px;
+  margin-left: 45px;
 }
 
 .footer .footerRight {
@@ -139,11 +138,14 @@
 .ink {
   font-weight: bold;
   font-size: 20px;
+  margin-top: -4px;
+  margin-left: -30vh;
 }
 .link a {
   text-decoration: none;
   font-weight: bold;
   color: rgb(12, 12, 12);
+  margin-left: -30vh;
 }
 .footer_socials {
   display: flex;
@@ -161,6 +163,9 @@
 }
 .intouch {
   font-weight: bold;
+  margin-top: 15px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .aboutBody {
@@ -675,8 +680,8 @@
   color: white;
   background-color: blue;
   border: none;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 50px;
+  padding: 11px;
 }
 .homeSessionButton a {
   text-decoration: none;
@@ -689,6 +694,29 @@
   text-decoration: none;
   color: rgb(0, 255, 0);
 }
+
+.homeSessionButton2 {
+  margin-left: -1vh;
+  margin-top: 50px;
+  font-size: 22px;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 50px;
+  padding: 11px;
+}
+.homeSessionButton2 a {
+  text-decoration: none;
+  color: white;
+}
+.homeSessionButton2 :hover {
+  color: rgb(255, 152, 169);
+}
+.homeSessionButton2 :active {
+  text-decoration: none;
+  color: rgb(0, 255, 0);
+}
+
 .homeSessionCard {
   width: 55vh;
   margin-top: -50vh;
@@ -761,6 +789,7 @@
   }
   .footer_socials {
     margin-right: 30px;
+    margin-left: -50px;
   }
 
   .footer .footerLeft {
@@ -771,7 +800,7 @@
     margin-bottom: 10px;
   }
   .ink {
-    font-size: 15px;
+    font-size: 20px;
   }
   .greet {
     font-size: 30px;
@@ -854,15 +883,7 @@
     float: left;
     margin-left: 8vh;
   }
-  .view1 {
-    margin-bottom: 10px;
-    background-color: blue;
-    border-radius: 10px;
-    color: white;
-    border-color: white;
-    width: 25%;
-    height: 50%;
-  }
+
   .card {
     width: 50%;
     margin-top: 40px;
@@ -995,22 +1016,31 @@
   }
   .homeSession {
     font-size: 8.5vh;
-    margin-left: 10vh;
+    margin-left: 8vh;
   }
   .homeSessionElighten {
-    margin-left: 10vh;
+    margin-left: 8vh;
     margin-bottom: 10vh;
     font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
   }
   .homeSessionButton {
-    margin-left: 10vh;
+    margin-left: 8vh;
     font-size: 22px;
     color: white;
     background-color: blue;
     border: none;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 50px;
+    padding: 11px;
+  }
+  .homeSessionButton2 {
+    margin-left: 0.5vh;
+    font-size: 22px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 50px;
+    padding: 11px;
   }
 
   .homeSessionCard {
