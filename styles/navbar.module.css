@@ -79,9 +79,20 @@
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-  background-color: rgb(43, 40, 40);
+  background-color: white;
+  border-radius: 15px;
+  color: blue;
 }
-
+.navbar .rightSide a:hover,
+.dropdown:hover .dropbtn {
+  background-color: white;
+  border-radius: 1px;
+  color: blue;
+}
+.navbar :hover {
+  background-color: rgb(43, 40, 40);
+  border-radius: 20px;
+}
 .dropdown_content {
   display: none;
   position: absolute;
