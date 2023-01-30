@@ -140,11 +140,14 @@ export default function Home() {
             <br />
             migration and preview deploys.
           </div>
+
           <button className={styles.homeSessionButton2}>
-            <div onClick={(e) => handleClick(e, "/helpProjrct")}>
-              <Link href={"/helpProject"} style={{ textDecoration: "none" }}>
-                view project
-              </Link>
+            <div className={styles.check}>
+              <div onClick={(e) => handleClick(e, "/helpProjrct")}>
+                <Link href={"/helpProject"} style={{ textDecoration: "none" }}>
+                  view project
+                </Link>
+              </div>
             </div>
           </button>
         </div>
@@ -175,10 +178,12 @@ export default function Home() {
             achievement motivate others.
           </p>
           <button className={styles.homeSessionButton}>
-            <div>
-              <Link href={"/homeSession"} style={{ textDecoration: "none" }}>
-                view project
-              </Link>
+            <div className={styles.check}>
+              <div>
+                <Link href={"/homeSession"} style={{ textDecoration: "none" }}>
+                  view project
+                </Link>
+              </div>
             </div>
           </button>
 

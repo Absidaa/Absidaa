@@ -60,7 +60,9 @@ export default function About() {
               show them how they could get around the platform.
             </p>
           </div>
-          <p className={styles.dev}>As a developer</p>
+          <p className={styles.dev} style={{ marginTop: "50px" }}>
+            As a developer
+          </p>
           <div>
             <span className={styles.close} style={{ fontSize: "2rem" }}>
               I give close attention to my codes&apos; understandability.
@@ -85,7 +87,9 @@ export default function About() {
             </p>
           </div>
         </div>
-        <p className={styles.per}>As a person</p>
+        <p className={styles.per} style={{ marginTop: "50px" }}>
+          As a person
+        </p>
         <div>
           <p style={{ fontFamily: "Roboto", fontSize: "2rem" }}>
             If I had to describe myself in a word, it would be
@@ -106,7 +110,14 @@ export default function About() {
           </p>
         </div>
         <div>
-          <p className={styles.coll}>As a colleague</p>
+          <p className={styles.coll} style={{ marginTop: "50px" }}>
+            As a colleague
+          </p>
+          <p style={{ fontFamily: "Roboto", fontSize: "2rem" }}>
+            My name is <b>Abdallah Sahid Dumbuya</b>, but my colleagues call me
+            <b> Absida</b>, a name that derived from my full name with two
+            letters taken from each.
+          </p>
           <p style={{ fontFamily: "Roboto", fontSize: "2rem" }}>
             I&apos;m that team player that feels comfortable interacting with
             both the technically oriented people of the team as well as the
@@ -122,7 +133,9 @@ export default function About() {
             </span>
           </p>
         </div>
-        <p style={{ fontFamily: "Roboto", fontSize: "2rem" }}>
+        <p
+          style={{ fontFamily: "Roboto", fontSize: "2rem", marginTop: "50px" }}
+        >
           I would like to hear from you!
         </p>
       </div>

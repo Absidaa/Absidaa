@@ -82,16 +82,17 @@
   background-color: white;
   border-radius: 15px;
   color: blue;
+  font-weight: bolder;
 }
 .navbar .rightSide a:hover,
 .dropdown:hover .dropbtn {
   background-color: white;
-  border-radius: 1px;
+  border-radius: 5px;
   color: blue;
 }
 .navbar :hover {
   background-color: rgb(43, 40, 40);
-  border-radius: 20px;
+  border-radius: 25px;
 }
 .dropdown_content {
   display: none;
@@ -152,7 +153,6 @@
     display: flex;
   }
 }
-
 @media only screen and (max-width: 700px) {
   .navbar .leftSide .links a {
     display: flex;
@@ -192,13 +192,18 @@
     width: 58vh;
   }
 }
+
 @media only screen and (max-width: 414px) {
   .navbar {
     width: 70vh;
   }
 }
 
-/*.navbar a {
+/*
+(min-device-width: 200px) and (max-device-width: 822px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)
+
+
+.navbar a {
   text-decoration: none;
   color: black;
   font-weight: bold;
