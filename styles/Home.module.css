@@ -662,13 +662,14 @@
   font-size: 20px;
   margin-top: 40vh;
   margin-bottom: 7vh;
+  color: gray;
 }
 .homeSession {
   font-size: 7.5vh;
   margin-left: 18vh;
 }
 .homeSessionElighten {
-  margin-left: 18vh;
+  margin-left: 18.5vh;
   margin-bottom: 10vh;
   font-size: 1.3rem;
   font-family: Arial, Helvetica, sans-serif;
@@ -768,6 +769,41 @@
   margin-top: 35px;
   margin-bottom: 30px;
   font-size: 30px;
+}
+
+.yourRecipeCard {
+  width: 55vh;
+  margin-top: 13vh;
+  margin-left: 9vh;
+  margin-bottom: 45vh;
+}
+.yourRecipeCardFonts {
+  padding-left: 25px;
+  padding-top: 30px;
+  padding-right: 20px;
+  font-size: 33px;
+  color: white;
+  font-family: Muli;
+  font-weight: 900;
+  background-color: rgb(16, 204, 148);
+}
+.yourRecipeCard {
+  width: 55vh;
+  margin-top: -50vh;
+  margin-left: 131vh;
+  margin-bottom: 45vh;
+}
+
+.yourRecipeCard :hover {
+  transform: translate(0px, -2%);
+  box-shadow: rgb(219, 11, 157) -0.1px 10px 1px 20px;
+  transition-delay: 0s;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.YourRecipeCard a :hover {
+  color: black;
+  text-decoration: none;
 }
 
 @keyframes spin {
@@ -1027,7 +1063,7 @@
     margin-left: 8vh;
   }
   .homeSessionElighten {
-    margin-left: 8vh;
+    margin-left: 9vh;
     margin-bottom: 10vh;
     font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -1058,6 +1094,21 @@
     margin-bottom: 45vh;
   }
   .homeSessionCardFonts {
+    padding-left: 25px;
+    padding-top: 30px;
+    padding-right: 20px;
+    font-size: 33px;
+    font-family: "Anton", sans-serif;
+    font-weight: 900;
+  }
+
+  .yourRecipeCard {
+    width: 55vh;
+    margin-top: 13vh;
+    margin-left: 9vh;
+    margin-bottom: 45vh;
+  }
+  .yourRecipeCardFonts {
     padding-left: 25px;
     padding-top: 30px;
     padding-right: 20px;
@@ -1917,7 +1968,7 @@
     font-weight: bolder;
   }
 }
-@media only screen and (min-device-width: 200px) and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 290px) and (max-device-width: 375px) and (max-device-height: 670px) {
   .contain {
     position: absolute;
     width: 68vh;
@@ -1931,6 +1982,11 @@
   }
   .tech {
     font-size: 30px;
+  }
+
+  .skills {
+    margin-top: -75vh;
+    margin-bottom: 60vh;
   }
   .footer {
     position: absolute;
@@ -2195,7 +2251,7 @@
     margin-left: 14vh;
   }
 }
-@media only screen and (min-device-width: 388px) and (max-device-width: 411px) {
+@media only screen and (min-device-width: 388px) and (max-device-width: 411px) and (max-device-height: 825px) {
   .contain {
     position: absolute;
     width: 68vh;

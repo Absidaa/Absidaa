@@ -2,6 +2,7 @@ import styles from "../styles/Home.module.css";
 import React from "react";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import { FaDumbbell } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 export default function Home() {
@@ -18,7 +19,7 @@ export default function Home() {
       <div className={styles.me}>
         <div className="px-3">
           <div className={styles.greet}>
-            <div> Hello, there👋🏾😊 I am Abdallah |</div>
+            <div> Hello, there👋🏾😊 I&apos;m Abdallah |</div>
             <div className={styles.container}>
               <a title="FRONTEND DEVELOPER">
                 <div className={styles.domain}>Software Engineer</div>
@@ -194,6 +195,43 @@ export default function Home() {
                   <div className={styles.homeSessionCardFonts}>
                     Take your home workout to another level in a way that
                     it&apos;d inspire the soul to be more invisible.
+                    <p style={{ marginLeft: "20vh" }}>
+                      <FaDumbbell color="black" />
+                    </p>
+                  </div>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className={styles.personalProject}>PERSONAL PROJECT</div>
+          <div className={styles.homeSession}>Your Recipes</div>
+          <p
+            className={styles.homeSessionElighten}
+            style={{ fontFamily: "Roboto", fontSize: "2rem" }}
+          >
+            A recipe social platform where you could demonstrate your cooking{" "}
+            <br /> skills while on the go.
+          </p>
+
+          <button className={styles.homeSessionButton}>
+            <div className={styles.check}>
+              <div>
+                <Link href={"/yourRecipe"} style={{ textDecoration: "none" }}>
+                  view project
+                </Link>
+              </div>
+            </div>
+          </button>
+          <div className={styles.yourRecipeCard}>
+            <div class="shadow-lg p-2  bg-body rounded">
+              <div className="card">
+                <Link href={"/yourRecipe"} style={{ textDecoration: "none" }}>
+                  <div className={styles.yourRecipeCardFonts}>
+                    To many, cooking has been a passion and passions are things
+                    that need busters to keep soaring. So, why not a special
+                    platform about your passion?
                   </div>
                 </Link>
               </div>
@@ -202,7 +240,7 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.cha}>
-        <div className={styles.chat}>I am open to chat !</div>
+        <div className={styles.chat}>I am open to chat!</div>
         <Link
           href="https:/www.absida8@gmail.com"
           target="blank"

@@ -77,7 +77,7 @@ export default function About() {
               <span className={styles.clean} style={{ fontSize: "2rem" }}>
                 Clean, maintainable, readable and consistent code.
               </span>
-              It&apso;s great when features work, but it&apos;s even greater
+              It&apos;s great when features work, but it&apos;s even greater
               whenever they can stay that way, regardless of who&apos;s working
               on them.
             </p>
