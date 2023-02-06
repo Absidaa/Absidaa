@@ -39,7 +39,7 @@ export default function homeSession() {
           </div>
           <div className={styles.sitSession}>
             <h3 className={styles.livSession}>live</h3>
-            <Link href={"/home-session.vercel.app"} rel="noreferrer">
+            <Link href={"https://home-session.vercel.app/"} rel="noreferrer">
               site
             </Link>
           </div>
