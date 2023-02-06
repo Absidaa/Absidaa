@@ -9,7 +9,7 @@ export default function homeSession() {
   return (
     <>
       <div className={styles.homeSessionBody}>
-        <h3 className={styles.homeSessionHeader}>Stay Fit</h3>
+        <h3 className={styles.stayFit}>Stay Fit</h3>
         <p>Two minutes read.</p>
         <p className={styles.homeSessionBody1}>
           Workout and look fit is not a mordern thing but it&apos;s one of the
@@ -33,9 +33,9 @@ export default function homeSession() {
           <div className={styles.stkSession}>
             <h3 className={styles.stakSession}>stack</h3>
 
-            <div style={{ fontSize: "1.6rem" }}>React.js</div>
+            <div style={{ fontSize: "1.6rem" }}>React</div>
             <div style={{ fontSize: "1.6rem" }}>Bootstrap</div>
-            <div style={{ fontSize: "1.6rem" }}>Styled-Components</div>
+            <div style={{ fontSize: "1.6rem" }}>Mantine</div>
           </div>
           <div className={styles.sitSession}>
             <h3 className={styles.livSession}>live</h3>
@@ -72,8 +72,8 @@ export default function homeSession() {
         <div>
           <h3 className={styles.explain}>Project Purpose and Goal</h3>
           <p className={styles.homeSessionBody1}>
-            The Home Session Workout application is to keep yourself fit as time
-            flies by.
+            The <b>STAY FIT</b> workout application is to keep yourself fit as
+            time flies by.
           </p>
           <p className={styles.homeSessionBody1}>
             I love to keep myself fit and the first thing that I always do
