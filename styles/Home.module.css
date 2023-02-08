@@ -873,7 +873,7 @@
   }
 }
 
-@media all and (max-width: 1000px) and (orientation: landscape) and (orientation: portrait) {
+@media all and (max-width: 1000px) {
   .name {
     font-size: 17px;
     font-weight: bold;
