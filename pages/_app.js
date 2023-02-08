@@ -21,7 +21,6 @@ export default function App({ Component, pageProps }) {
   if (!showChild) {
     return null;
   }
-
   return (
     <>
       <div>

@@ -4,8 +4,10 @@ import Link from "next/link";
 import Image from "next/image";
 
 
+
 export default function Navbar() {
   const [showLinks, setShowLinks] = useState(false);
+
   return (
     <>
       <div className={styles.navbar}>

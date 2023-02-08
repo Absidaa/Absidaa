@@ -37,7 +37,7 @@ export default function Home() {
             <div class="hstack gap-2">
               <div>
                 <Link href="https://github.com/Absidaa/Absida" target="blank">
-                  <BsGithub size={30} />
+                  <BsGithub size={30} color="Green" />
                 </Link>
               </div>
 
@@ -46,12 +46,12 @@ export default function Home() {
                   href="https://www.linkedin.com/in/absida-04b9b3232/"
                   rel="noreferrer"
                 >
-                  <BsLinkedin size={30} />
+                  <BsLinkedin size={30} color="Green" />
                 </Link>
               </div>
               <div>
                 <Link href="http://absida8@gmail.com" target="blank">
-                  <MdEmail size={30} />
+                  <MdEmail size={30} color="Green" />
                 </Link>
               </div>
             </div>
@@ -206,6 +206,7 @@ export default function Home() {
         </div>
         <div>
           <div className={styles.personalProject}>PERSONAL PROJECT</div>
+
           <div className={styles.homeSession}>Your Recipes</div>
           <p
             className={styles.homeSessionElighten}
@@ -246,7 +247,7 @@ export default function Home() {
           target="blank"
           style={{ textDecoration: "none" }}
         >
-          absida8@gmail.com
+          <div className={styles.mail}> absida8@gmail.com</div>
         </Link>
         <div>
           <div id="contact">

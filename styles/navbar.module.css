@@ -186,7 +186,7 @@
     z-index: 1;
   }
 }
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 385px) {
   .navbar {
     height: 60px;
     width: 58vh;
@@ -196,6 +196,12 @@
 @media only screen and (max-width: 414px) {
   .navbar {
     width: 70vh;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .navbar {
+    width: 80vh;
   }
 }
 

@@ -4,8 +4,8 @@ export default function UnderConstruction() {
   return (
     <>
       <div class="card">
-        <h1 style={{ marginLeft: "70vh", marginTop: "50vh" }}>
-          STILL UNDER PRODUCTION
+        <h1 style={{ marginLeft: "80vh", marginTop: "50vh" }}>
+          STILL ON PRODUCTION
         </h1>
       </div>
     </>
