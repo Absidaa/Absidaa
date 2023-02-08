@@ -130,6 +130,7 @@
     margin-left: 56vh;
   }
 }
+
 @media only screen and (max-width: 800px) {
   .navbar .leftSide a {
     font-size: 15px;
@@ -189,7 +190,7 @@
 @media only screen and (max-width: 385px) {
   .navbar {
     height: 60px;
-    width: 58vh;
+    width: 48vh;
   }
 }
 
@@ -206,38 +207,509 @@
 }
 
 /*
-(min-device-width: 200px) and (max-device-width: 822px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)
-
-
-.navbar a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  font-size: 18px;
-  justify-content: center;
-  display: flex;
-}
-.navbar button {
-  display: none;
-}
-.btn {
-  justify-content: end;
-  align-items: flex-end;
-  margin-left: 90vh;
-}
-.navbar #hidden {
-  display: flex;
-}
 
 
 
-  
-  .navbar #hidden {
-    position: absolute;
-    top: 80px;
-    height: 230px;
-    width: 100%;
-    background-color: white;
+
+
+
+
+
+@media all and (max-width: 800px) {
+  .name {
+    font-size: 17px;
+    font-weight: bold;
   }
+  .link a {
+    text-decoration: none;
+    font-weight: normal;
+  }
+  .footer_content {
+    font-size: 14px;
+  }
+  .footer .footerRight {
+    font-size: 14px;
+    margin-top: -60px;
+  }
+  .footer_socials {
+    margin-right: 30px;
+    margin-left: -50px;
+  }
+
+  .footer .footerLeft {
+    margin-left: 20px;
+  }
+
+  .link {
+    margin-bottom: 10px;
+  }
+  .ink {
+    font-size: 20px;
+  }
+  .mail {
+    margin-left: 22.5rem;
+  }
+  .greet {
+    font-size: 30px;
+  }
+  .path {
+    font-size: 15px;
+  }
+  .socials {
+    font-size: 23px;
+  }
+  .abimg {
+    margin-left: 5vh;
+    margin-top: 25vh;
+  }
+  .skills {
+    font-size: 50px;
+    margin-left: 13vh;
+    margin-top: -70vh;
+    margin-bottom: 65vh;
+  }
+  .softs {
+    font-size: 14px;
+    margin-left: -55vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: -60vh;
+  }
+
+  .tec {
+    font-size: 17px;
+  }
+  .des {
+    font-size: 1.2rem;
+    margin-left: 8vh;
+    color: black;
+  }
+  .bio {
+    font-size: 14px;
+    margin-top: 25px;
+  }
+  .aboutBody {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-family: Muli;
+    font-weight: 300;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .cv {
+    font-weight: bolder;
+    font-size: bolder;
+  }
+  .techWise {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .tech {
+    font-size: 29px;
+  }
+
+  .tec {
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin: 15px 50px;
+    margin-left: 8vh;
+    margin-top: 60px;
+    font-size: 20px;
+  }
+
+  .projects {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  .left {
+    float: left;
+    margin-left: 8vh;
+  }
+
+  .card {
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 8vh;
+    margin-bottom: 30px;
+    float: middle;
+  }
+
+  .free {
+    background-color: rgb(15, 243, 243);
+    font-size: 20px;
+    font-family: normal;
+    margin-left: 65px;
+    margin-top: 10px;
+    text-transform: capitalize;
+  }
+  .cardBtnL {
+    height: 35px;
+    font-size: 13px;
+    font-family: Roboto;
+    margin-right: 5px;
+    margin-left: 40px;
+    border-radius: 15px;
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    text-transform: capitalize;
+  }
+  .cardBtnR {
+    height: 35px;
+    font-size: 13px;
+    font-family: Roboto;
+    margin-left: 5px;
+    border-radius: 15px;
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    text-transform: capitalize;
+  }
+  .chat {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 44vh;
+    margin-bottom: 20px;
+  }
+  .cha a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 40vh;
+    text-decoration: none;
+  }
+  .comp {
+    font-size: 100px;
+    font-weight: 900;
+    margin-left: 50vh;
+  }
+  .ihlp {
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 400;
+  }
+  .brif {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+  }
+  .stk {
+    margin-left: 1%;
+    margin-top: 10%;
+  }
+  .sit {
+    margin-left: 2%;
+    margin-top: 10%;
+  }
+
+  .homeSessionBody {
+    margin-left: 10vh;
+  }
+  .typeSession {
+    margin-left: -2px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  .stakSession {
+    margin-left: -2px;
+    margin-top: 20vh;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  .livSession {
+    margin-left: -2px;
+    margin-top: -20vh;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  .sitSession a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 3px;
+    color: orangered;
+  }
+
+  .stkSession {
+    margin-left: -0.2vh;
+    margin-top: -11.5%;
+  }
+  .sitSession {
+    margin-left: -0.2vh;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+  }
+
+  .typeRecipe {
+    margin-left: -2px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  .stkRecipe {
+    margin-left: -0.2vh;
+    margin-top: -11.5%;
+  }
+  .stakRecipe {
+    margin-left: -2px;
+    margin-top: 20vh;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  .sitRecipe a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 3px;
+    margin-left: -2px;
+    color: orangered;
+  }
+  .livRecipe {
+    margin-left: -2px;
+    margin-top: 10vh;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: bolder;
+  }
+
+  .personalProject {
+    margin-left: 10vh;
+    font-size: 23px;
+    margin-top: 30vh;
+    margin-bottom: 3vh;
+  }
+  .homeSession {
+    font-size: 8.5vh;
+    margin-left: 8vh;
+  }
+  .homeSessionElighten {
+    margin-left: 9vh;
+    margin-bottom: 10vh;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .homeSessionButton {
+    margin-left: 8vh;
+    font-size: 22px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 50px;
+    padding: 11px;
+  }
+  .homeSessionButton2 {
+    margin-left: 0.5vh;
+    font-size: 22px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 50px;
+    padding: 11px;
+  }
+
+  .homeSessionCard {
+    width: 55vh;
+    margin-top: 13vh;
+    margin-left: 9vh;
+    margin-bottom: 45vh;
+  }
+  .homeSessionCardFonts {
+    padding-left: 25px;
+    padding-top: 30px;
+    padding-right: 20px;
+    font-size: 33px;
+    font-family: "Anton", sans-serif;
+    font-weight: 900;
+  }
+
+  .yourRecipeCard {
+    width: 55vh;
+    margin-top: 13vh;
+    margin-left: 9vh;
+    margin-bottom: 45vh;
+  }
+  .yourRecipeCardFonts {
+    padding-left: 25px;
+    padding-top: 30px;
+    padding-right: 20px;
+    font-size: 33px;
+    font-family: "Anton", sans-serif;
+    font-weight: 900;
+  }
+  .contain {
+    position: absolute;
+    width: 80%;
+    top: 199%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 30px;
+    padding: 30px;
+  }
+  .dat {
+    margin-left: 50%;
+    margin-top: 30px;
+    margin-bottom: -2px;
+    font-weight: bolder;
+  }
+
+  .java {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 93px;
+    height: 33px;
+    padding: 2px 10px 0px 10px;
+    margin-left: 48vh;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .htm {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 65px;
+    height: 33px;
+    margin-left: -0.1vh;
+    margin-top: -15px;
+    padding: 2px 10px 0px 10px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .css {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 50px;
+    margin-left: -0.1vh;
+    height: 33px;
+    padding: 2px 10px 0px 9px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .react {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 61px;
+    height: 33px;
+    margin-left: -0.1vh;
+    padding: 2px 10px 0px 10px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .next {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 73px;
+    height: 33px;
+    margin-left: -0.01vh;
+    padding: 2px 10px 0px 11px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .sql {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 50px;
+    height: 33px;
+    margin-left: -0.01vh;
+    padding: 2px 10px 0px 10px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .post {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 102px;
+    margin-left: -74.7vh;
+    height: 33px;
+    padding: 2px 10px 0px 11px;
+    margin-top: 15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .nod {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 77px;
+    margin-left: -56.3vh;
+    height: 33px;
+    padding: 2px 10px 0px 10px;
+    margin-top: -33px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .boot {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 90px;
+    margin-left: -42.5vh;
+    height: 33px;
+    padding: 2px 10px 0px 10px;
+    margin-top: -33px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .tab {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 77px;
+    height: 33px;
+    margin-left: -26vh;
+    padding: 2px 10px 0px 11px;
+    margin-top: -33px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .lize {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 89px;
+    height: 33px;
+    margin-left: -12vh;
+    padding: 2px 10px 0px 12px;
+    margin-top: -33px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+}
+
+
+
+
+
+
+
 
 */
