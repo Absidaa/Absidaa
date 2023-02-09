@@ -215,6 +215,176 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+  .java {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 93px;
+    height: 33px;
+    padding: 2px 10px 0px 10px;
+    margin-left: 48vh;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .htm {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 65px;
+    height: 33px;
+    margin-left: -0.1vh;
+    margin-top: -15px;
+    padding: 2px 10px 0px 10px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .css {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 50px;
+    margin-left: -0.1vh;
+    height: 33px;
+    padding: 2px 10px 0px 9px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .react {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 61px;
+    height: 33px;
+    margin-left: -0.1vh;
+    padding: 2px 10px 0px 10px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .next {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 73px;
+    height: 33px;
+    margin-left: -0.01vh;
+    padding: 2px 10px 0px 11px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .sql {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 50px;
+    height: 33px;
+    margin-left: -0.01vh;
+    padding: 2px 10px 0px 10px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .post {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 102px;
+    margin-left: -74.7vh;
+    height: 33px;
+    padding: 2px 10px 0px 11px;
+    margin-top: 15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .nod {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 77px;
+    margin-left: -56.3vh;
+    height: 33px;
+    padding: 2px 10px 0px 10px;
+    margin-top: -33px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .boot {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 90px;
+    margin-left: -42.5vh;
+    height: 33px;
+    padding: 2px 10px 0px 10px;
+    margin-top: -33px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .tab {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 77px;
+    height: 33px;
+    margin-left: -26vh;
+    padding: 2px 10px 0px 11px;
+    margin-top: -33px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .lize {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 89px;
+    height: 33px;
+    margin-left: -12vh;
+    padding: 2px 10px 0px 12px;
+    margin-top: -33px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media all and (max-width: 800px) {
   .name {
     font-size: 17px;
@@ -706,6 +876,300 @@
 }
 
 
+
+@media all and (min-device-width: 500px) and (max-device-width: 750px) and (max-device-height: 1138px) {
+  .contain {
+    position: absolute;
+    width: 10vh;
+    top: 19%;
+    left: 50%;
+    margin-top: -10vh;
+    margin-left: 7vh;
+    transform: translate(-50%, -50%);
+    padding-left: 30px;
+    padding: 30px;
+  }
+  .tech {
+    font-size: 30px;
+  }
+  .card {
+    width: 45vh;
+    margin-bottom: -20vh;
+  }
+  .homeSessionCard {
+    width: 45vh;
+    margin-top: 13vh;
+    margin-left: 9vh;
+    margin-bottom: -20vh;
+  }
+
+  .yourRecipeCard {
+    width: 45vh;
+    margin-top: 13vh;
+    margin-left: 9vh;
+    margin-bottom: 40vh;
+  }
+  .footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: rgb(197, 112, 112);
+    color: black;
+    height: 30vh;
+  }
+  .footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 25px;
+  }
+
+  .footer .footerLeft {
+    flex: 33.3%;
+    margin-left: 20px;
+  }
+
+  .footer .footerRight {
+    flex: 33.3%;
+    margin-top: -60px;
+  }
+
+  .footer .footerMiddle {
+    flex: 33.3%;
+  }
+
+  .name {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .name a {
+    text-decoration: none;
+    color: black;
+  }
+  .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 22px;
+    font-weight: bolder;
+  }
+  .ink {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -4px;
+    margin-left: 5vh;
+  }
+  .link a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+    margin-left: 5vh;
+  }
+  .footer_socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    float: right;
+    margin-right: 20px;
+    margin-top: -50px;
+    margin-bottom: 15px;
+  }
+  .footer_socials a {
+    color: black;
+  }
+  .footerRight .intouch {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-right: -3vh;
+  }
+
+  .des {
+    font-size: 35px;
+    margin-right: -10px;
+  }
+  .homeSessionBody1 {
+    font-size: 25px;
+    margin-right: -70px;
+  }
+  .appImage {
+    margin-left: -26px;
+  }
+
+  .homeSessionBody1 {
+    font-size: 30px;
+    margin-right: -100px;
+  }
+  .explain {
+    font-size: 29px;
+    font-weight: bolder;
+  }
+  .skills {
+    margin-top: -45vh;
+    margin-bottom: 50vh;
+    margin-left: 65px;
+  }
+  .footer .footerRight {
+    font-size: 12px;
+    margin-top: 45px;
+    margin-left: -36vh;
+    width: 52vh;
+  }
+
+  .java {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 93px;
+    height: 33px;
+    padding: 2px 10px 0px 6px;
+    margin-left: 50vh;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .htm {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 65px;
+    height: 33px;
+    margin-left: -0.1vh;
+    margin-top: -15px;
+    padding: 2px 10px 0px 8px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .css {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 50px;
+    margin-left: -0.1vh;
+    height: 33px;
+    padding: 2px 10px 0px 8px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .react {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 61px;
+    height: 33px;
+    margin-left: -0.1vh;
+    padding: 2px 10px 0px 7px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .next {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 73px;
+    height: 33px;
+    margin-left: -0.01vh;
+    padding: 2px 10px 0px 8px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .sql {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 50px;
+    height: 33px;
+    margin-left: -0.01vh;
+    padding: 2px 10px 0px 8px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .post {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 102px;
+    margin-left: -35.8vh;
+    height: 33px;
+    padding: 2px 10px 0px 10px;
+    margin-top: 15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .nod {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 77px;
+    margin-left: -26.8vh;
+    height: 33px;
+    padding: 2px 10px 0px 10px;
+    margin-top: -33px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .boot {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 90px;
+    margin-left: -19.9vh;
+    height: 33px;
+    padding: 2px 10px 0px 10px;
+    margin-top: -33px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .tab {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 77px;
+    height: 33px;
+    margin-left: -11.9vh;
+    padding: 2px 10px 0px 10px;
+    margin-top: -33px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .lize {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 89px;
+    height: 33px;
+    margin-left: -35.8vh;
+    padding: 2px 10px 0px 8px;
+    margin-top: 5px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+
+  .chat {
+    margin-left: 22vh;
+  }
+
+  .mail {
+    margin-left: 20vh;
+  }
+  .comp {
+    margin-left: 25vh;
+  }
+}
 
 
 
