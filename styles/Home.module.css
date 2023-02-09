@@ -49,9 +49,9 @@
   color: white;
   display: flex;
   justify-content: center;
-  margin-top: -92rem;
+  margin-top: -99rem;
   margin-bottom: -5vh;
-  margin-left: 10vh;
+  margin-left: 20vh;
 }
 
 .bot {
@@ -164,7 +164,7 @@
   color: black;
 }
 .mail {
-  margin-left: 50rem;
+  margin-left: 56rem;
 }
 .intouch {
   font-weight: bold;
@@ -923,8 +923,8 @@
   .skills {
     font-size: 50px;
     margin-left: 13vh;
-    margin-top: -70vh;
-    margin-bottom: 65vh;
+    margin-top: -65vh;
+    margin-bottom: 75vh;
   }
   .softs {
     font-size: 14px;
@@ -2805,299 +2805,6 @@
     margin-left: 14vh;
   }
 }
-@media all and (max-device-width: 360px) and (max-device-height: 640px) {
-  .contain {
-    position: absolute;
-    width: 68vh;
-    top: 199%;
-    left: 50%;
-    margin-top: -10vh;
-    margin-left: 7vh;
-    transform: translate(-50%, -50%);
-    padding-left: 30px;
-    padding: 30px;
-  }
-  .tech {
-    font-size: 30px;
-  }
-
-  .card {
-    width: 45vh;
-    margin-bottom: -20vh;
-  }
-  .homeSessionCard {
-    width: 55vh;
-    margin-top: 13vh;
-    margin-left: 9vh;
-    margin-bottom: -20vh;
-  }
-  .mail {
-    margin-left: 10vh;
-  }
-
-  .yourRecipeCard {
-    width: 55vh;
-    margin-top: 13vh;
-    margin-left: 9vh;
-    margin-bottom: 40vh;
-  }
-  .footer {
-    position: absolute;
-    left: 0;
-    right: 0;
-    background: rgb(197, 112, 112);
-    color: black;
-    height: 30vh;
-  }
-  .footer_content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 20px;
-    float: left;
-    margin-left: 40px;
-    margin-bottom: 25px;
-  }
-
-  .footer .footerLeft {
-    flex: 33.3%;
-    margin-left: 20px;
-  }
-
-  .footer .footerRight {
-    flex: 33.3%;
-    margin-top: -60px;
-  }
-
-  .footer .footerMiddle {
-    flex: 33.3%;
-  }
-
-  .name {
-    font-size: 20px;
-    font-weight: bolder;
-  }
-  .name a {
-    text-decoration: none;
-    color: black;
-  }
-  .link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 22px;
-    font-weight: bolder;
-  }
-  .ink {
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: -4px;
-    margin-left: 5vh;
-  }
-  .link a {
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(12, 12, 12);
-    margin-left: 5vh;
-  }
-  .footer_socials {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    float: right;
-    margin-right: 40px;
-    margin-top: -50px;
-    margin-bottom: 15px;
-  }
-  .footer_socials a {
-    color: black;
-  }
-  .footerRight .intouch {
-    font-weight: bold;
-    margin-top: 15px;
-    font-size: 20px;
-    margin-bottom: 10px;
-    margin-right: -4vh;
-  }
-
-  .des {
-    font-size: 30px;
-    margin-right: -70px;
-  }
-
-  .homeSessionBody1 {
-    font-size: 25px;
-    margin-right: -70px;
-  }
-  .appImage {
-    margin-left: -26px;
-  }
-
-  .homeSessionBody1 {
-    font-size: 30px;
-    margin-right: -100px;
-  }
-  .explain {
-    font-size: 29px;
-    font-weight: bolder;
-  }
-  .skills {
-    margin-top: -55vh;
-    margin-bottom: 60vh;
-    margin-left: 65px;
-  }
-  .footer .footerRight {
-    font-size: 12px;
-    margin-top: 45px;
-    margin-left: -23.5vh;
-    width: 52vh;
-  }
-
-  .java {
-    border-style: solid;
-    border-radius: 7px;
-    font-weight: 600;
-    width: 93px;
-    height: 33px;
-    padding: 2px 10px 0px 6px;
-    margin-left: 50vh;
-    margin-top: -15px;
-    background-color: rgb(36, 122, 89);
-    color: white;
-  }
-  .htm {
-    border-style: solid;
-    border-radius: 7px;
-    font-weight: 600;
-    width: 65px;
-    height: 33px;
-    margin-left: -0.1vh;
-    margin-top: -15px;
-    padding: 2px 10px 0px 8px;
-    background-color: rgb(36, 122, 89);
-    color: white;
-  }
-  .css {
-    border-style: solid;
-    border-radius: 7px;
-    font-weight: 600;
-    width: 50px;
-    margin-left: -0.1vh;
-    height: 33px;
-    padding: 2px 10px 0px 8px;
-    margin-top: -15px;
-    background-color: rgb(36, 122, 89);
-    color: white;
-  }
-  .react {
-    border-style: solid;
-    border-radius: 7px;
-    font-weight: 600;
-    width: 61px;
-    height: 33px;
-    margin-left: -0.1vh;
-    padding: 2px 10px 0px 7px;
-    margin-top: -15px;
-    background-color: rgb(36, 122, 89);
-    color: white;
-  }
-  .next {
-    border-style: solid;
-    border-radius: 7px;
-    font-weight: 600;
-    width: 73px;
-    height: 33px;
-    margin-left: -0.01vh;
-    padding: 2px 10px 0px 8px;
-    margin-top: -15px;
-    background-color: rgb(36, 122, 89);
-    color: white;
-  }
-  .sql {
-    border-style: solid;
-    border-radius: 7px;
-    font-weight: 600;
-    width: 50px;
-    height: 33px;
-    margin-left: -0.01vh;
-    padding: 2px 10px 0px 8px;
-    margin-top: -15px;
-    background-color: rgb(36, 122, 89);
-    color: white;
-  }
-  .post {
-    border-style: solid;
-    border-radius: 7px;
-    font-weight: 600;
-    width: 102px;
-    margin-left: -63.3vh;
-    height: 33px;
-    padding: 2px 10px 0px 10px;
-    margin-top: 15px;
-    background-color: rgb(36, 122, 89);
-    color: white;
-  }
-  .nod {
-    border-style: solid;
-    border-radius: 7px;
-    font-weight: 600;
-    width: 77px;
-    margin-left: -47.2vh;
-    height: 33px;
-    padding: 2px 10px 0px 10px;
-    margin-top: -33px;
-    background-color: rgb(36, 122, 89);
-    color: white;
-  }
-  .boot {
-    border-style: solid;
-    border-radius: 7px;
-    font-weight: 600;
-    width: 90px;
-    margin-left: -35vh;
-    height: 33px;
-    padding: 2px 10px 0px 10px;
-    margin-top: -33px;
-    background-color: rgb(36, 122, 89);
-    color: white;
-  }
-  .tab {
-    border-style: solid;
-    border-radius: 7px;
-    font-weight: 600;
-    width: 77px;
-    height: 33px;
-    margin-left: -21vh;
-    padding: 2px 10px 0px 10px;
-    margin-top: -33px;
-    background-color: rgb(36, 122, 89);
-    color: white;
-  }
-  .lize {
-    border-style: solid;
-    border-radius: 7px;
-    font-weight: 600;
-    width: 89px;
-    height: 33px;
-    margin-left: -63.3vh;
-    padding: 2px 10px 0px 8px;
-    margin-top: 5px;
-    background-color: rgb(36, 122, 89);
-    color: white;
-  }
-
-  .chat {
-    font-size: 24px;
-    margin-left: 14vh;
-  }
-}
-
 @media only screen and (max-device-width: 360px) and (max-device-height: 740px) {
   .contain {
     position: absolute;
@@ -3124,9 +2831,6 @@
     margin-left: 9vh;
     margin-bottom: -20vh;
   }
-  .mail {
-    margin-left: 12vh;
-  }
 
   .yourRecipeCard {
     width: 55vh;
@@ -3241,9 +2945,9 @@
     font-weight: bolder;
   }
   .skills {
-    margin-top: -55vh;
+    margin-top: -50vh;
     margin-bottom: 60vh;
-    margin-left: 65px;
+    margin-left: 48px;
   }
   .footer .footerRight {
     font-size: 12px;
@@ -3259,7 +2963,7 @@
     width: 93px;
     height: 33px;
     padding: 2px 10px 0px 6px;
-    margin-left: 50vh;
+    margin-left: 70vh;
     margin-top: -15px;
     background-color: rgb(36, 122, 89);
     color: white;
@@ -3329,7 +3033,7 @@
     border-radius: 7px;
     font-weight: 600;
     width: 102px;
-    margin-left: -54.3vh;
+    margin-left: -55vh;
     height: 33px;
     padding: 2px 10px 0px 10px;
     margin-top: 15px;
@@ -3341,7 +3045,7 @@
     border-radius: 7px;
     font-weight: 600;
     width: 77px;
-    margin-left: -40.5vh;
+    margin-left: -40vh;
     height: 33px;
     padding: 2px 10px 0px 10px;
     margin-top: -33px;
@@ -3353,7 +3057,7 @@
     border-radius: 7px;
     font-weight: 600;
     width: 90px;
-    margin-left: -30vh;
+    margin-left: -28vh;
     height: 33px;
     padding: 2px 10px 0px 10px;
     margin-top: -33px;
@@ -3366,7 +3070,7 @@
     font-weight: 600;
     width: 77px;
     height: 33px;
-    margin-left: -18vh;
+    margin-left: -15vh;
     padding: 2px 10px 0px 10px;
     margin-top: -33px;
     background-color: rgb(36, 122, 89);
@@ -3378,7 +3082,7 @@
     font-weight: 600;
     width: 89px;
     height: 33px;
-    margin-left: -54.3vh;
+    margin-left: -55vh;
     padding: 2px 10px 0px 8px;
     margin-top: 5px;
     background-color: rgb(36, 122, 89);
@@ -3386,8 +3090,15 @@
   }
 
   .chat {
-    font-size: 24px;
-    margin-left: 14vh;
+    font-size: 20px;
+    margin-left: 27vh;
+  }
+
+  .mail {
+    margin-left: 20vh;
+  }
+  .comp {
+    margin-left: 30vh;
   }
 }
 
@@ -4271,7 +3982,7 @@
   }
 }
 
-@media only screen and (min-device-width: 500px) and (max-device-width: 750px) and (max-device-height: 1138px) {
+@media all and (min-device-width: 500px) and (max-device-width: 750px) and (max-device-height: 1138px) {
   .contain {
     position: absolute;
     width: 10vh;
