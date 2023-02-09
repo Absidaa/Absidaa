@@ -211,6 +211,11 @@
   }
 }
 
+@media only screen and (max-device-width: 480px) and (max-device-height: 855px) {
+  .navbar {
+    width: 85vh;
+  }
+}
 /*
 
 

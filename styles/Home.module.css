@@ -1363,7 +1363,7 @@
   }
 }
 
-@media all and (max-device-width: 950px) {
+@media only screen and (max-device-width: 950px) {
   .contain {
     position: absolute;
     width: 10vh;
@@ -2820,6 +2820,152 @@
   }
 }
 
+@media only screen and (max-device-width: 600px) and (max-device-height: 960px) {
+  .java {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 93px;
+    height: 33px;
+    padding: 2px 10px 0px 6px;
+    margin-left: 57vh;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .htm {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 65px;
+    height: 33px;
+    margin-left: -0.1vh;
+    margin-top: -15px;
+    padding: 2px 10px 0px 8px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .css {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 50px;
+    margin-left: -0.1vh;
+    height: 33px;
+    padding: 2px 10px 0px 8px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .react {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 61px;
+    height: 33px;
+    margin-left: -0.1vh;
+    padding: 2px 10px 0px 7px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .next {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 73px;
+    height: 33px;
+    margin-left: -0.01vh;
+    padding: 2px 10px 0px 8px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .sql {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 50px;
+    height: 33px;
+    margin-left: -0.01vh;
+    padding: 2px 10px 0px 8px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .post {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 102px;
+    margin-left: -42.5vh;
+    height: 33px;
+    padding: 2px 10px 0px 10px;
+    margin-top: 15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .nod {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 77px;
+    margin-left: -30.6vh;
+    height: 33px;
+    padding: 2px 10px 0px 10px;
+    margin-top: -33px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .boot {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 90px;
+    margin-left: -21.9vh;
+    height: 33px;
+    padding: 2px 10px 0px 10px;
+    margin-top: -33px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .tab {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 77px;
+    height: 33px;
+    margin-left: -11.9vh;
+    padding: 2px 10px 0px 10px;
+    margin-top: -33px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .lize {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 89px;
+    height: 33px;
+    margin-left: -42.5vh;
+    padding: 2px 10px 0px 8px;
+    margin-top: 5px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+
+  .chat {
+    margin-left: 22vh;
+  }
+
+  .mail {
+    margin-left: 20vh;
+  }
+  .comp {
+    margin-left: 25vh;
+  }
+}
+
 @media only screen and (min-device-width: 712px) and (max-device-width: 799px) and (max-device-height: 1200px) {
   .contain {
     position: absolute;
@@ -3988,7 +4134,7 @@
   }
 }
 
-@media only screen and (min-device-width: 100px) and (max-device-width: 359px) and (max-device-height: 700px) {
+@media only screen and (max-device-width: 359px) and (max-device-height: 700px) {
   .contain {
     position: absolute;
     width: 68vh;
@@ -4892,5 +5038,599 @@
   }
   .comp {
     margin-left: 76vh;
+  }
+}
+
+@media only screen and (max-device-width: 412px) and (max-device-height: 732px) {
+  .contain {
+    position: absolute;
+    width: 68vh;
+    top: 199%;
+    left: 50%;
+    margin-top: -10vh;
+    margin-left: 7vh;
+    transform: translate(-50%, -50%);
+    padding-left: 30px;
+    padding: 30px;
+  }
+  .me {
+    width: 80vh;
+  }
+  .tech {
+    font-size: 30px;
+  }
+
+  .card {
+    width: 35vh;
+    margin-bottom: -20vh;
+  }
+  .homeSessionCard {
+    width: 55vh;
+    margin-top: 13vh;
+    margin-left: 9vh;
+    margin-bottom: -20vh;
+  }
+
+  .yourRecipeCard {
+    width: 55vh;
+    margin-top: 13vh;
+    margin-left: 9vh;
+    margin-bottom: 40vh;
+  }
+  .footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: rgb(197, 112, 112);
+    color: black;
+    height: 30vh;
+    width: 80vh;
+  }
+  .footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 25px;
+  }
+
+  .footer .footerLeft {
+    flex: 33.3%;
+    margin-left: 20px;
+  }
+
+  .footer .footerRight {
+    flex: 33.3%;
+    margin-top: -60px;
+  }
+
+  .footer .footerMiddle {
+    flex: 33.3%;
+  }
+
+  .name {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .name a {
+    text-decoration: none;
+    color: black;
+  }
+  .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 22px;
+    margin-left: -4vh;
+    font-weight: bolder;
+  }
+  .ink {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -4px;
+    margin-left: 6vh;
+  }
+  .link a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+    margin-left: 5vh;
+  }
+  .footer_socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    float: right;
+    margin-right: 40px;
+    margin-top: -50px;
+    margin-bottom: 15px;
+  }
+  .footer_socials a {
+    color: black;
+  }
+  .footerRight .intouch {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-right: -6vh;
+  }
+
+  .des {
+    font-size: 30px;
+    margin-right: -70px;
+  }
+
+  .homeSessionBody1 {
+    font-size: 25px;
+    margin-right: -70px;
+  }
+  .appImage {
+    margin-left: -26px;
+  }
+
+  .homeSessionBody1 {
+    font-size: 30px;
+    margin-right: -100px;
+  }
+  .explain {
+    font-size: 29px;
+    font-weight: bolder;
+  }
+  .skills {
+    margin-top: -55vh;
+    margin-bottom: 60vh;
+    margin-left: 35px;
+  }
+  .abimg {
+    margin-left: 20vh;
+  }
+  .footer .footerRight {
+    font-size: 12px;
+    margin-top: 45px;
+    margin-left: -23.5vh;
+    width: 52vh;
+  }
+
+  .java {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 93px;
+    height: 33px;
+    padding: 2px 10px 0px 6px;
+    margin-left: 73vh;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .htm {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 65px;
+    height: 33px;
+    margin-left: -0.1vh;
+    margin-top: -15px;
+    padding: 2px 10px 0px 8px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .css {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 50px;
+    margin-left: -0.1vh;
+    height: 33px;
+    padding: 2px 10px 0px 8px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .react {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 61px;
+    height: 33px;
+    margin-left: -0.1vh;
+    padding: 2px 10px 0px 7px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .next {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 73px;
+    height: 33px;
+    margin-left: -0.01vh;
+    padding: 2px 10px 0px 8px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .sql {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 50px;
+    height: 33px;
+    margin-left: -0.01vh;
+    padding: 2px 10px 0px 8px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .post {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 102px;
+    margin-left: -61.3vh;
+    height: 33px;
+    padding: 2px 10px 0px 10px;
+    margin-top: 15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .nod {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 77px;
+    margin-left: -45.5vh;
+    height: 33px;
+    padding: 2px 10px 0px 10px;
+    margin-top: -33px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .boot {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 90px;
+    margin-left: -33.5vh;
+    height: 33px;
+    padding: 2px 10px 0px 10px;
+    margin-top: -33px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .tab {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 77px;
+    height: 33px;
+    margin-left: -19.5vh;
+    padding: 2px 10px 0px 10px;
+    margin-top: -33px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .lize {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 89px;
+    height: 33px;
+    margin-left: -61.3vh;
+    padding: 2px 10px 0px 8px;
+    margin-top: 5px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+
+  .chat {
+    font-size: 21px;
+    margin-left: 25vh;
+  }
+
+  .mail {
+    margin-left: 20vh;
+  }
+  .comp {
+    margin-left: 27vh;
+  }
+}
+
+@media only screen and (max-device-width: 480px) and (max-device-height: 855px) {
+  .contain {
+    position: absolute;
+    width: 68vh;
+    top: 199%;
+    left: 50%;
+    margin-top: -10vh;
+    margin-left: 7vh;
+    transform: translate(-50%, -50%);
+    padding-left: 30px;
+    padding: 30px;
+  }
+  .me {
+    width: 85vh;
+  }
+  .tech {
+    font-size: 30px;
+  }
+  .footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: rgb(197, 112, 112);
+    color: black;
+    height: 30vh;
+    width: 85vh;
+  }
+  .footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 25px;
+  }
+
+  .footer .footerLeft {
+    flex: 33.3%;
+    margin-left: 20px;
+  }
+
+  .footer .footerRight {
+    flex: 33.3%;
+    margin-top: -60px;
+  }
+
+  .footer .footerMiddle {
+    flex: 33.3%;
+  }
+
+  .name {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .name a {
+    text-decoration: none;
+    color: black;
+  }
+  .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 22px;
+    font-weight: bolder;
+  }
+  .ink {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -4px;
+    margin-left: 5vh;
+  }
+  .link a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+    margin-left: 5vh;
+  }
+  .footer_socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    float: right;
+    margin-right: 40px;
+    margin-top: -50px;
+    margin-bottom: 15px;
+  }
+  .footer_socials a {
+    color: black;
+  }
+  .footerRight .intouch {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-right: -4vh;
+  }
+
+  .des {
+    font-size: 30px;
+    margin-right: -70px;
+  }
+
+  .homeSessionBody1 {
+    font-size: 25px;
+    margin-right: -70px;
+  }
+  .appImage {
+    margin-left: -26px;
+  }
+  .shadow {
+    box-shadow: rgb(88 88 88) 10px 3px 20px 30px;
+    width: 45vh;
+  }
+
+  .homeSessionBody1 {
+    font-size: 30px;
+    margin-right: -100px;
+  }
+  .explain {
+    font-size: 29px;
+    font-weight: bolder;
+  }
+  .skills {
+    margin-top: -50vh;
+    margin-bottom: 60vh;
+  }
+  .footer .footerRight {
+    font-size: 12px;
+    margin-top: 45px;
+    margin-left: -23.5vh;
+    width: 52vh;
+  }
+
+  .java {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 93px;
+    height: 33px;
+    padding: 2px 10px 0px 6px;
+    margin-left: 65vh;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .htm {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 65px;
+    height: 33px;
+    margin-left: -0.1vh;
+    margin-top: -15px;
+    padding: 2px 10px 0px 8px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .css {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 50px;
+    margin-left: -0.1vh;
+    height: 33px;
+    padding: 2px 10px 0px 8px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .react {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 61px;
+    height: 33px;
+    margin-left: -0.1vh;
+    padding: 2px 10px 0px 7px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .next {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 73px;
+    height: 33px;
+    margin-left: -0.01vh;
+    padding: 2px 10px 0px 8px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .sql {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 50px;
+    height: 33px;
+    margin-left: -0.01vh;
+    padding: 2px 10px 0px 8px;
+    margin-top: -15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .post {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 102px;
+    margin-left: -47.6vh;
+    height: 33px;
+    padding: 2px 10px 0px 10px;
+    margin-top: 15px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .nod {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 77px;
+    margin-left: -34.5vh;
+    height: 33px;
+    padding: 2px 10px 0px 10px;
+    margin-top: -33px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .boot {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 90px;
+    margin-left: -24vh;
+    height: 33px;
+    padding: 2px 10px 0px 10px;
+    margin-top: -33px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .tab {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 77px;
+    height: 33px;
+    margin-left: -12.2vh;
+    padding: 2px 10px 0px 10px;
+    margin-top: -33px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+  .lize {
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 89px;
+    height: 33px;
+    margin-left: -47.6vh;
+    padding: 2px 10px 0px 8px;
+    margin-top: 5px;
+    background-color: rgb(36, 122, 89);
+    color: white;
+  }
+
+  .homeSession {
+    font-size: 33px;
+    font-weight: bolder;
+  }
+  .chat {
+    font-size: 24px;
+    margin-left: 33vh;
+  }
+  .mail {
+    margin-left: 30vh;
+  }
+  .comp {
+    margin-left: 35vh;
   }
 }
