@@ -2805,6 +2805,7 @@
     margin-left: 14vh;
   }
 }
+
 @media only screen and (max-device-width: 360px) and (max-device-height: 740px) {
   .contain {
     position: absolute;
@@ -3102,7 +3103,7 @@
   }
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 350px) and (max-device-height: 700px) {
+@media only screen and (max-device-width: 360px) and (max-height: 640px) {
   .contain {
     position: absolute;
     width: 68vh;
@@ -3127,9 +3128,6 @@
     margin-top: 13vh;
     margin-left: 9vh;
     margin-bottom: -20vh;
-  }
-  .mail {
-    margin-left: 12vh;
   }
 
   .yourRecipeCard {
@@ -3263,7 +3261,7 @@
     width: 93px;
     height: 33px;
     padding: 2px 10px 0px 6px;
-    margin-left: 50vh;
+    margin-left: 72vh;
     margin-top: -15px;
     background-color: rgb(36, 122, 89);
     color: white;
@@ -3333,7 +3331,7 @@
     border-radius: 7px;
     font-weight: 600;
     width: 102px;
-    margin-left: -61.3vh;
+    margin-left: -63.3vh;
     height: 33px;
     padding: 2px 10px 0px 10px;
     margin-top: 15px;
@@ -3345,7 +3343,7 @@
     border-radius: 7px;
     font-weight: 600;
     width: 77px;
-    margin-left: -45.5vh;
+    margin-left: -46.5vh;
     height: 33px;
     padding: 2px 10px 0px 10px;
     margin-top: -33px;
@@ -3370,7 +3368,7 @@
     font-weight: 600;
     width: 77px;
     height: 33px;
-    margin-left: -19.5vh;
+    margin-left: -18.5vh;
     padding: 2px 10px 0px 10px;
     margin-top: -33px;
     background-color: rgb(36, 122, 89);
@@ -3382,7 +3380,7 @@
     font-weight: 600;
     width: 89px;
     height: 33px;
-    margin-left: -61.3vh;
+    margin-left: -63.3vh;
     padding: 2px 10px 0px 8px;
     margin-top: 5px;
     background-color: rgb(36, 122, 89);
@@ -3391,7 +3389,10 @@
 
   .chat {
     font-size: 20px;
-    margin-left: 17vh;
+    margin-left: 28vh;
+  }
+  .mail {
+    margin-left: 20vh;
   }
 }
 
