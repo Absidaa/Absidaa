@@ -219,7 +219,10 @@ export default function Home() {
           <button className={styles.homeSessionButton}>
             <div className={styles.check}>
               <div>
-                <Link href={"/yourRecipe"} style={{ textDecoration: "none" }}>
+                <Link
+                  href={"/underConstuction"}
+                  style={{ textDecoration: "none" }}
+                >
                   view project
                 </Link>
               </div>
